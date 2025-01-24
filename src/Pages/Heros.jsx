@@ -44,6 +44,14 @@ export default function Heros() {
             <div className="">
                 <h1 className="header-text-heors">A WALLET BUILT FOR<br /> AFRICA, READY FOR <br />
                 THE WORLD</h1>
+
+                <div className="hearos-line-paragraph">
+                    <p>Send, receive, and save money across borders with<br /> ease</p>
+                </div>
+
+                <div className="hearos-line-paragraph">
+                    <p>Designed for Africa, our wallet lets you manage<br /> your finances in multiple currencies, all while<br/> staying connected back home.</p>
+                </div>
             </div>
         </div>
       </div>

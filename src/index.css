@@ -149,4 +149,9 @@ body {
         font-weight: bold;
         line-height: 1;
       }
+      .hearos-line-paragraph{
+        color: #013F16;
+        font-weight: normal; 
+        margin-top: 5%;
+      }
 }
