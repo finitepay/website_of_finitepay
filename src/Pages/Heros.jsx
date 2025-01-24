@@ -2,7 +2,12 @@
 export default function Heros() {
   return (
     <div className="herosBody">
-        <h1>Heroes</h1>      
+       <div>
+         <div className="">
+            <h1 className="header-text">FinitePay</h1>
+         </div>
+         <div className=""></div>
+       </div>    
     </div>
   )
 }
