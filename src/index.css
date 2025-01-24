@@ -186,7 +186,11 @@ body {
         width: 20%;
     }
 
-    .second-container-image img {
-        border: 2px solid #2CBE18;
+    .payer-manager{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        background: #E7E9EE;
     }
 }

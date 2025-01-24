@@ -1,4 +1,4 @@
-import connectdata from "../Data/herosdata"
+import connectdata, { headerlogo } from "../Data/herosdata"
 
 
 export default function Heros() {
@@ -68,6 +68,15 @@ export default function Heros() {
       </div>
 
       {/* Our payer mananger...*/}
+      <div className="payer-manager">
+        {
+          headerlogo.map((heros) => (
+            <div key={heros.id} className="heros-card-logo">
+                <img src={heros.logo} alt={heros.alt} />
+            </div>
+          ))    
+        }
+      </div>
     </div>
   )
 }
