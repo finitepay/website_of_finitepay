@@ -186,4 +186,14 @@ body {
         width: 20%;
     }
 
+    .second-container-image img {
+        width: 50%;
+    }
+
+    .heros-details-content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
 }

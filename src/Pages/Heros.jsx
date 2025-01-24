@@ -58,6 +58,13 @@ export default function Heros() {
               <button className="button">Login</button>
          </div>
         </div>
+
+        {/* Second container design */}
+        <div className="second-container">
+            <div className="second-container-image">
+                <img src="https://images.pexels.com/photos/30149856/pexels-photo-30149856/free-photo-of-cozy-workspace-with-coffee-and-laptop-setup.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Group_81" />
+            </div>
+        </div>
       </div>
     </div>
   )
