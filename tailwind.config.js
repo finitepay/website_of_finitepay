@@ -1,9 +1,18 @@
 /** @type {import('tailwindcss').Config} */
+
 export default {
-  content: [],
+  content: [
+    './src/**/*.{js,jsx,ts,tsx}',
+  ],
   theme: {
     extend: {},
+    fontFamily: {
+      sans: ['Inter', 'sans-serif'],
+    },
   },
-  plugins: [],
-}
+  plugins: [
 
+    // Add your custom plugins here, or remove this line if you're not using it
+    
+  ],
+};
