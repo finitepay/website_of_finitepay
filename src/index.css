@@ -113,4 +113,18 @@ body {
         padding: 3px;
         cursor: pointer;
       }
+
+      /* heros card  design...*/
+      .heros-card{
+        display: flex;
+      }
+
+      .heros-card-container .heros-card-details{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .heros-card-image-two img{
+        width: 10px;
+      }
 }
