@@ -12,7 +12,12 @@ export default function Heros() {
               <button className="button">Personal Account</button>
               <button className="button">Business Account</button>
          </div>
-       </div>    
+       </div> 
+       
+       {/* Hero Image  and client details*/}
+       <div className="">
+        <img src="" alt="" />
+       </div>
     </div>
   )
 }
