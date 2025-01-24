@@ -40,6 +40,11 @@ export default function Heros() {
                 ))
             }
             </div>
+
+            <div className="">
+                <h1 className="header-text-heors">A WALLET BUILT FOR<br /> AFRICA, READY FOR <br />
+                THE WORLD</h1>
+            </div>
         </div>
       </div>
     </div>

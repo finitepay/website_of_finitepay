@@ -129,7 +129,24 @@ body {
 
       .heros-card-container{
         display: flex;
-        justify-content: space-between;
+        gap: 5px;
         align-items: center;
+      }
+
+      .heros-card-text{
+        font-size: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        color: #0B4F6C;   
+      }
+      .heros-card-image img{
+        width: 20px;
+      }
+      .header-text-heors{
+        font-size: 2rem;
+        color: #013F16;
+        font-weight: bold;
+        line-height: 1;
       }
 }
