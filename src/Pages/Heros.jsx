@@ -66,6 +66,8 @@ export default function Heros() {
             </div>
         </div>
       </div>
+
+      {/* Our payer mananger...*/}
     </div>
   )
 }
