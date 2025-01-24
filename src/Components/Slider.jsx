@@ -28,7 +28,7 @@ const Slider = () => {
       <div
         className="slider"
         style={{
-          '--width': '500px',
+          '--width': '50%',
           '--height': '50px',
           '--quantity': images.length,
         }}
