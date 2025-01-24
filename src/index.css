@@ -8,7 +8,6 @@ body{
 }
 
 main{
-    width: min(1200px, 90vw);
     margin: auto;
 }
 
@@ -27,10 +26,9 @@ main{
     display: flex;
     flex-wrap: wrap;
     white-space: nowrap;
-    gap: 20px;
+    width: 100%;
     min-width: calc(var(--width) * var(--quantity));
     position: relative;
-
 }
 
 .slider .list .item{
@@ -72,3 +70,4 @@ main{
         left: 100%;
     }
 }
+
