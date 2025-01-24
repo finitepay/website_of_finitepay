@@ -73,7 +73,7 @@ body {
 
 
 /* the project design start here */
-.button-for-action button::active{
+.button-for-action button:active {
     background: #2CBE18;
 }
 
@@ -81,7 +81,7 @@ body {
     .herosBody{
         width: 98%;
         margin: 0 auto;
-        background: green;
+        background: rgb(109, 110, 109);
     } 
     .header-text{
         font-size: 1.5rem;
@@ -91,7 +91,7 @@ body {
 
     .button-for-action{
         display: flex;
-        gap: 10px;
+        gap: 3px;
     }
     
     .heros-main-content
@@ -109,6 +109,7 @@ body {
         color: #fff;
         font-weight: normal;
         border: 1px solid #2CBE18;
+        padding: 3px;
         cursor: pointer;
       }
 }
