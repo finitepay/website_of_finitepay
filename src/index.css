@@ -118,13 +118,18 @@ body {
       .heros-card{
         display: flex;
       }
-
-      .heros-card-container .heros-card-details{
+       .heros-card-details{
         display: flex;
         justify-content: center;
         align-items: center;
       }
       .heros-card-image-two img{
         width: 10px;
+      }
+
+      .heros-card-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
       }
 }

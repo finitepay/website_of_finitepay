@@ -31,8 +31,10 @@ export default function Heros() {
                     <div className="heros-card-image-two">
                       <img src={heros.stars} alt={heros.alt} />
                     </div>
-                      <h2>{heros.view}</h2>
-                      <p>{heros.Text}</p>
+                     <div className="heros-card-text">
+                        <p>{heros.view}</p>
+                        <p>{heros.Text}</p>
+                     </div>
                     </div>
                   </div>
                 ))
