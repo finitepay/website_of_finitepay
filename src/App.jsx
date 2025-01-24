@@ -1,5 +1,6 @@
 import './App.css'
 import Slider from './Components/Slider'
+import Globalaccounts from './Pages/Globalaccounts'
 import Heros from './Pages/Heros'
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <div>
       <Slider />
       <Heros />
+      <Globalaccounts />
     </div>
   )
 }
