@@ -6,6 +6,10 @@ import logo01 from '../images/kenyannews.png'
 import logo02 from '../images/Mastercardlogo.png'
 import logo03 from '../images/Airtermoney.png'
 
+import global01 from '../images/Layer1.png'
+import global02 from '../images/Layer2.png'
+import global03 from '../images/Layer3.png'
+
 const connectdata = [
     {
         id: 1,
@@ -43,5 +47,29 @@ const headerlogo = [
     }
 ]
 
+const global = [
+    {
+        id: 1,
+        title : "Global Accounts",
+        Text: "Open accounts in USD, EUR, or GBP to shop online, save, or send money internationally without high conversion fees.",
+        logo: global01,
+        alt: 'global01'
+    },
+    {
+        id: 2,
+        title : "Payouts",
+        Text: "Send money instantly to friends and family across Africa and beyond with low fees and no delays.",
+        logo: global02,
+        alt: 'global02'
+    },
+    {
+        id: 3,
+        title : "Local Payments",
+        Text: "Pay bills, buy airtime, or settle expenses in your local currency across supported African countries.",
+        logo: global03,
+        alt: 'global03'
+    }
+]
+
 export default connectdata;
-export {headerlogo};
+export {headerlogo, global};
