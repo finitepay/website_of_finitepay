@@ -194,4 +194,8 @@ body {
         background: #E7E9EE;
         width: 100%;
     }
+
+    .globalaccountsBody{
+        background: white;
+    }
 }
