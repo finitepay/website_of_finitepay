@@ -63,13 +63,18 @@ body {
     animation: reversePlay 20s linear infinite; /* Changed from 10s to 20s */
 }
 
-
 @keyframes reversePlay{
     from{
         left: calc(var(--width) * -1);
     }to{
         left: 100%;
     }
+}
+
+
+/* the project design start here */
+.button-for-action button::active{
+    background: #2CBE18;
 }
 
 @media screen and (max-width: 468px){  
@@ -83,4 +88,27 @@ body {
         color: #0B4F6C;
         font-weight: bold;
     }
+
+    .button-for-action{
+        display: flex;
+        gap: 10px;
+    }
+    
+    .heros-main-content
+    {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .button-for-action button
+      {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        color: #fff;
+        font-weight: normal;
+        border: 1px solid #2CBE18;
+        cursor: pointer;
+      }
 }
