@@ -2,14 +2,6 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
-body{
-    margin: 0;
-    background-color: #e5e5e5;
-}
-
-main{
-    margin: auto;
-}
 
 .slider{
     height: var(--height);
@@ -71,5 +63,11 @@ main{
     }
 }
 
-@media screen and (max-width: 768px){    
+@media screen and (max-width: 468px){  
+    .herosBody{
+        width: 98%;
+        margin: 0 auto;
+        background: green;
+    } 
+    
 }
