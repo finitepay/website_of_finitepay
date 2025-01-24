@@ -1,13 +1,13 @@
-import img01 from '../images/slider1_1.png';
-import img02 from '../images/slider1_2.png';
-import img03 from '../images/slider1_3.png';
-import img04 from '../images/slider1_4.png';
-import img05 from '../images/slider1_5.png';
-import img06 from '../images/slider1_6.png';
-import img07 from '../images/slider1_7.png';
-import img08 from '../images/slider1_8.png';
-import img09 from '../images/slider1_9.png';
-import img10 from '../images/slider1_10.png';
+import img01 from '../images/Group81.png';
+import img02 from '../images/Group81.png';
+import img03 from '../images/Group81.png';
+import img04 from '../images/Group81.png';
+import img05 from '../images/Group81.png';
+import img06 from '../images/Group81.png';
+import img07 from '../images/Group81.png';
+import img08 from '../images/Group81.png';
+import img09 from '../images/Group81.png';
+import img10 from '../images/Group81.png';
 
 const images = [
   { src: img01, position: 1 },
@@ -28,7 +28,7 @@ const Slider = () => {
       <div
         className="slider"
         style={{
-          '--width': '100px',
+          '--width': '500px',
           '--height': '50px',
           '--quantity': images.length,
         }}
