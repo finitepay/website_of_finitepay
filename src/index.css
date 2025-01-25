@@ -296,5 +296,30 @@ body {
         color: #013F16;
         margin-top: 3px;
     }
+
+    .safety-content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .safety-content h2{
+        font-size: 20px;
+        color: #013F16;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    .safety-paragraph{
+        font-size: small;
+        font-weight: normal;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding:  10px;
+    }
  
 }

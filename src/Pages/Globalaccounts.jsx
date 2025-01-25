@@ -1,4 +1,4 @@
-import { global, howitworks } from "../Data/herosdata";
+import { global, howitworks, safety } from "../Data/herosdata";
 
 export default function Globalaccounts() {
   return (
@@ -50,7 +50,31 @@ export default function Globalaccounts() {
         </div>
       </div>
 
-      {/* adding the of  */}
+      {/* adding the part of safety in this code.... */}
+      <div className="safety-container">
+      <div className="safety-content">
+          <h2>YOUR SAFETY COMES FIRST</h2>
+          <div className="safety-paragraph">
+            <p>
+            From encryption to fraud detection, your transactions are safe and secure, whether you&apos;re sending money or managing your business.
+            </p>
+          </div>
+        </div>
+      <div className="safety-content">
+          {safety.map((safety) => (
+            <div key={safety.id} className="safety-card">
+              <div className="safety-card-image">
+                <img src={safety.ImggetData} alt={safety.alt} />
+              </div>
+              <div className="safety-card-details">
+                <h2>{safety.title}</h2>
+                <p>{safety.Text}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    
     </div>
   );
 }
