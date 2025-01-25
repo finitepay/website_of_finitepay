@@ -747,7 +747,6 @@ body {
         align-items: center;
         flex-direction: column;
         padding-top: 50px;
-        padding-bottom: 50px;
         background: #E9EFEC;
     }
 
@@ -786,6 +785,13 @@ body {
 
     .growth-card-container-object {
         padding: 20px 20px;
+    }
 
+    .growth-img-container-image img {
+        width: 90%;
+        height: 300px !important;
+        margin: 0 auto;
+        border-radius: 20px;
+        margin-bottom: -130px;
     }
 }
