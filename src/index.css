@@ -10,6 +10,7 @@ body {
         sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    background: white;
 }
 
 .slider {
@@ -303,6 +304,13 @@ body {
         align-items: center;
         flex-direction: column;
         gap: 10px;
+        
+    }
+
+    .safety-container{
+        background: #F5EFE7;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 
     .safety-content h2{
