@@ -1,20 +1,41 @@
+import { useState } from "react";
 import { commonquestion } from "../Data/herosdata";
 
 export default function Questioncomon() {
+  const [activeIndex, setActiveIndex] = useState(null);
+
+  const toggleText = (index) => {
+    setActiveIndex(activeIndex === index ? null : index);
+  };
+
   return (
     <div className="questioncomonBody">
-      <div className="questioncomon-main-content"></div>
-      {/* the content main...*/}
+      <div className="questioncomon-main-content">
+        <h1 className="questioncomon-title">Frequently Asked Questions</h1>
+        <p className="questioncomon-subtitle">
+          Click on a question to reveal the answer!
+        </p>
+      </div>
       <div className="questioncomon-content">
-        {commonquestion.map((commonquestion) => (
-          <div key={commonquestion.id} className="questioncomon-card">
-            <div className="questioncomon-card-text">
-              <h2>{commonquestion.title}</h2>
-              <p>{commonquestion.Text}</p>
+        {commonquestion.map((question, index) => (
+          <div key={question.id} className="questioncomon-card">
+            <div
+              className="questioncomon-card-header"
+              onClick={() => toggleText(index)}
+            >
+              <h2>{question.title}</h2>
+              <button className="toggle-button">
+                {activeIndex === index ? "-" : "+"}
+              </button>
             </div>
+            {activeIndex === index && (
+              <div className="questioncomon-card-text">
+                <p>{question.Text}</p>
+              </div>
+            )}
             <div className="questioncomon-card-details">
               <div className="questioncomon-card-image">
-               {commonquestion.Icons}
+                <img src={question.Icons} alt={question.alt} />
               </div>
             </div>
           </div>
