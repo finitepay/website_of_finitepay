@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import Slider from "../Components/Slider";
 import connectdata, { africancountry, getgrowing } from "../Data/herosdata";
+import SlaverHear from "../images/LayerHear1.png"
 
 export default function Businessaccountpages() {
 
@@ -142,6 +143,23 @@ export default function Businessaccountpages() {
         </div>
         </div>
         </div>
+    </div>
+
+    {/* AFFORDABLE AND SAFE  24/7 Support*/}
+
+    <div className="affordable-container-main">
+       <div className="affordable-contenaire">
+
+        <div className="">
+            <img src={SlaverHear} alt="Sending Money Image" />
+        </div>
+            <div className="">
+                <h1>24/7 Support</h1>
+            </div>
+        </div>
+
+        <div className=""></div>
+        <div className=""></div>
     </div>
     </div>
   )
