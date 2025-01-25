@@ -657,4 +657,35 @@ body {
         font-size: 30px;
         cursor: pointer;
     }
+
+    .ending-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        gap: 10px;
+        padding: 20px;
+    }
+
+    .container-blue-paragraph h2{
+        color: #0B4F6C;
+        font-weight: bolder;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        line-height: 1;
+    }
+    .container-blue-paragraph p{
+        font-size: small;
+        font-weight: normal;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        line-height: 1.5;
+        color: #0B4F6C;
+    }
 }

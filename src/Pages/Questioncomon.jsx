@@ -42,6 +42,10 @@ export default function Questioncomon() {
       </div>
       {/* Add your rest of your code here */}
       <div className="ending-container">
+        <div className="container-blue-paragraph">
+            <h2>Any more questions?</h2>
+            <p>Let’s get you the answer.</p>
+        </div>
        <div className="container-green">
              <div className="default-green"></div>
         </div>

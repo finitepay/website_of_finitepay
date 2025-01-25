@@ -12,6 +12,7 @@ export default function Heros() {
          {/* Call to action button */}
          <div className="button-for-action">
               <button className="button">Personal Account</button>
+             
               <button className="button">Business Account</button>
          </div>
        </div> 
