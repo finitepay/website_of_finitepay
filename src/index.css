@@ -310,7 +310,7 @@ body {
     .safety-container {
         background: #F5EFE7;
         padding-top: 20px;
-        padding-bottom: 20px;
+        padding-bottom: 150px;
     }
 
     .safety-content h2 {
@@ -365,7 +365,8 @@ body {
 
     .sending-money-container {
         background: #2CBE18;
-        padding: 20px 0;
+        
+        padding-top: 100px;
     }
 
     .sending-content-details {
@@ -399,11 +400,17 @@ body {
         flex-direction: column;
         padding: 20px;
         color: white;
-        border: 2px solid white;
     }
 
     .sending-money-paragraph p {
         text-align: start;
         padding-top: 8px;
+    }
+    .sending-money-content-image img{
+        width: 90% ;
+        height: 300px !important;
+        margin: 0 auto;
+        border-radius: 20px;
+        margin-top: -230px;
     }
 }
