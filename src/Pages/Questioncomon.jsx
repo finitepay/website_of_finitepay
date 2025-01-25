@@ -33,11 +33,6 @@ export default function Questioncomon() {
                 <p>{question.Text}</p>
               </div>
             )}
-            <div className="questioncomon-card-details">
-              <div className="questioncomon-card-image">
-                <img src={question.Icons} alt={question.alt} />
-              </div>
-            </div>
           </div>
         ))}
       </div>
