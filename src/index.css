@@ -70,6 +70,12 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
     grid-gap: 5px;
+    padding-top: 10px;
+    padding: 10px;
+}
+
+.herosing-card{
+    
 }
 
 @keyframes reversePlay {
@@ -733,6 +739,28 @@ body {
         text-align: center;
         line-height: 1.5;
         color: #0B4F6C;
-        padding-top: 5px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+
+    .growth-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        background: #E9EFEC;
+    }
+
+    .growth-content h1{
+        color: #0B4F6C;
+        font-weight: bold;
+        font-size: x-large;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        line-height: 1;
     }
 }
