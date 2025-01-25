@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import Slider from "../Components/Slider";
-import connectdata from "../Data/herosdata";
+import connectdata, { africancountry } from "../Data/herosdata";
 
 export default function Businessaccountpages() {
   return (
@@ -81,10 +81,23 @@ export default function Businessaccountpages() {
             <div className="african-wallet-content-h1">
                 <h1>Currently available in 38 African countries</h1>
             </div>
+            <div className="african-wallet-content-p">
+                <p>Whether you’re in Kenya, Nigeria, South Africa, or anywhere in between, you can count on us to provide fast, secure, and affordable financial services—no matter where you are.</p>
+            </div>
         </div>
         
         {/* Second container design */}
-        <div className=""></div>
+        <div className="">
+            {
+                africancountry.map((heros) => (
+                  <div key={heros.id} className="herosing-card">
+                    <div className="herosing-card-image">
+                      <img src={heros.flag} alt={heros.name} />
+                    </div>
+                  </div>
+                ))
+            }
+        </div>
     </div>
     </div>
   )

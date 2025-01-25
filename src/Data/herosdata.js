@@ -236,6 +236,50 @@ const commonquestion =[
     }
 ]
 
+const africancountry = [
+    {
+        id: 1,
+        name : "Tanzania",
+        flag : "https://images.pexels.com/photos/915915/pexels-photo-915915.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    },
+    {
+        id: 2,
+        name : "Kenya",
+        flag : "https://images.pexels.com/photos/915915/pexels-photo-915915.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    },
+    {
+        id: 3,
+        name : "Nigeria",
+        flag : "https://images.pexels.com/photos/915915/pexels-photo-915915.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    },
+    {
+        id: 4,
+        name : "South Africa",
+        flag : "https://images.pexels.com/photos/915915/pexels-photo-915915.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    },
+    {
+        id: 5,
+        name : "Ghana",
+        flag : "https://images.pexels.com/photos/915915/pexels-photo-915915.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    },
+    {
+        id: 6,
+        name : "Uganda",
+        flag : "https://images.pexels.com/photos/915915/pexels-photo-915915.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    },
+    {
+        id: 7,
+        name : "Tanzania",
+        flag : "https://images.pexels.com/photos/915915/pexels-photo-915915.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    },
+    {
+        id: 8,
+        name : "Tanzania",
+        flag : "https://images.pexels.com/photos/915915/pexels-photo-915915.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    },
+
+]
+
 
 export default connectdata;
-export {headerlogo, global , howitworks, safety, happyClient, commonquestion};
+export {headerlogo, global , howitworks, safety, happyClient, commonquestion, africancountry};

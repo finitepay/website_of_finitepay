@@ -66,6 +66,12 @@ body {
     /* Changed from 10s to 20s */
 }
 
+.herosing-card {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    grid-gap: 5px;
+}
+
 @keyframes reversePlay {
     from {
         left: calc(var(--width) * -1);
@@ -406,27 +412,29 @@ body {
         text-align: start;
         padding-top: 8px;
     }
-    .sending-money-content-image img{
-        width: 90% ;
+
+    .sending-money-content-image img {
+        width: 90%;
         height: 300px !important;
         margin: 0 auto;
         border-radius: 20px;
         margin-top: -230px;
     }
-    .white-by-default{
+
+    .white-by-default {
         background: white;
         height: 200px;
         width: 100% !important;
     }
 
-    .container-green{
+    .container-green {
         display: flex;
         justify-content: center;
         align-items: center;
         gap: 10px;
     }
 
-    .default-green{
+    .default-green {
         background: #013F16;
         padding: 10px;
         border-radius: 10px;
@@ -435,7 +443,7 @@ body {
         width: 150px;
     }
 
-    .finitepaysection{
+    .finitepaysection {
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -443,7 +451,7 @@ body {
         padding: 20px;
     }
 
-    .finitepaysection-content-h1{
+    .finitepaysection-content-h1 {
         color: #0B4F6C;
         font-weight: bolder;
         font-size: 25px;
@@ -454,7 +462,7 @@ body {
         line-height: 1;
     }
 
-    .finitepaysection-content-paragraph{
+    .finitepaysection-content-paragraph {
         font-size: small;
         font-weight: normal;
         display: flex;
@@ -464,7 +472,7 @@ body {
         line-height: 1.5;
     }
 
-    .finitepaysection-money-content-image img{
+    .finitepaysection-money-content-image img {
         height: 300px;
         width: 90%;
         margin: 0 auto;
@@ -472,7 +480,7 @@ body {
         padding: 10px;
     }
 
-    .finitepaysection-content-h1-second{
+    .finitepaysection-content-h1-second {
         color: #24637B;
         font-weight: bolder;
         font-size: 20px;
@@ -483,7 +491,7 @@ body {
         line-height: 1;
     }
 
-    .finitepaysection-card-one{
+    .finitepaysection-card-one {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -492,7 +500,7 @@ body {
         padding-top: 15px;
     }
 
-    .finitepaysection-card-one h1{
+    .finitepaysection-card-one h1 {
         color: #0B4F6C;
         font-weight: bolder;
         font-size: 20px;
@@ -504,7 +512,7 @@ body {
         padding: 5px;
     }
 
-    .finitepaysection-card-one p{
+    .finitepaysection-card-one p {
         font-weight: normal;
         display: flex;
         justify-content: center;
@@ -513,21 +521,21 @@ body {
         line-height: 1.5;
     }
 
-    .happy-customers-container{
+    .happy-customers-container {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
     }
 
-    .header-text h1{
+    .header-text h1 {
         font-size: 20px;
         color: #0B4F6C;
         font-weight: bolder;
         line-height: 1;
     }
 
-    .happy-customers-content-paragraphe p{
+    .happy-customers-content-paragraphe p {
         font-size: small;
         font-weight: normal;
         line-height: 1.5;
@@ -536,12 +544,12 @@ body {
     }
 
     /* design carousel */
-    .slider-happy-clients{
+    .slider-happy-clients {
         background: #E8ECD7;
         width: 90%;
     }
 
-    .slider-card{
+    .slider-card {
         display: flex;
         justify-content: space-between;
         background: #D4F3E1;
@@ -551,19 +559,19 @@ body {
         gap: 20px;
     }
 
-    .slider-card-content{
+    .slider-card-content {
         display: flex;
         justify-content: center;
         flex-direction: column;
     }
 
-    .slider-card-image img{
+    .slider-card-image img {
         border-radius: 100%;
         width: 100px;
         object-fit: contain;
     }
 
-    .slider-card-content h3{
+    .slider-card-content h3 {
         color: #0B4F6C;
         font-weight: bolder;
         font-size: 20px;
@@ -571,29 +579,32 @@ body {
         line-height: 1;
     }
 
-    .slider-card-content p{
+    .slider-card-content p {
         font-weight: normal;
         font-size: small;
         display: flex;
         line-height: 1.5;
     }
 
-    .slider-card-text{
+    .slider-card-text {
         padding-top: 5px;
     }
-    .slider-card-location{
+
+    .slider-card-location {
         color: #0B4F6C;
         font-weight: bolder;
     }
 
-    .slider-controls{
+    .slider-controls {
         display: flex;
         justify-content: center;
         align-items: center;
         gap: 20px;
         padding: 20px;
     }
-    .slider-controls .slider-arrow-left, .slider-arrow-right{
+
+    .slider-controls .slider-arrow-left,
+    .slider-arrow-right {
         background-color: #2CBE18;
         font-size: 40px;
         color: white;
@@ -601,12 +612,13 @@ body {
         border-radius: 50%;
     }
 
-    .questioncomonBody{
+    .questioncomonBody {
         padding: 0px;
         margin: 0px;
         width: 100%;
     }
-    .questioncomon-main-content h1{
+
+    .questioncomon-main-content h1 {
         font-size: 20px;
         color: #0B4F6C;
         font-weight: bolder;
@@ -616,22 +628,22 @@ body {
         text-transform: uppercase;
     }
 
-    .questioncomon-content{
+    .questioncomon-content {
         display: flex;
         justify-content: center;
         flex-direction: column;
         background: #D4F3E1;
     }
 
-    .questioncomon-card{
+    .questioncomon-card {
         display: flex;
         justify-content: center;
         flex-direction: column;
-        padding: 10px ;
+        padding: 10px;
         background: #D4F3E1;
     }
 
-    .questioncomon-card-header{
+    .questioncomon-card-header {
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -639,26 +651,27 @@ body {
         width: 100%;
     }
 
-    .questioncomon-card-text p{
+    .questioncomon-card-text p {
         font-weight: normal;
         font-size: small;
         display: flex;
         color: #0B4F6C;
         padding-top: 5px;
     }
-    .dropdown-title{
+
+    .dropdown-title {
         font-weight: normal;
         font-size: 15px;
         color: #0B4F6C;
     }
 
-    .active-button{
+    .active-button {
         color: #2CBE18;
         font-size: 30px;
         cursor: pointer;
     }
 
-    .ending-container{
+    .ending-container {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -668,7 +681,7 @@ body {
         padding: 20px;
     }
 
-    .container-blue-paragraph h2{
+    .container-blue-paragraph h2 {
         color: #0B4F6C;
         font-weight: bolder;
         font-size: 20px;
@@ -678,7 +691,8 @@ body {
         text-align: center;
         line-height: 1;
     }
-    .container-blue-paragraph p{
+
+    .container-blue-paragraph p {
         font-size: small;
         font-weight: normal;
         display: flex;
@@ -700,7 +714,7 @@ body {
         line-height: 1;
     }
 
-    .african-wallet-container{
+    .african-wallet-container {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -708,5 +722,17 @@ body {
         padding-top: 50px;
         padding-bottom: 50px;
         background: linear-gradient(290deg, #E9EFEC 0%, #C4DAD2 100%);
+    }
+
+    .african-wallet-content-p {
+        font-weight: normal;
+        font-size: small;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        line-height: 1.5;
+        color: #0B4F6C;
+        padding-top: 5px;
     }
 }
