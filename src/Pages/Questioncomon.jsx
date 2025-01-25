@@ -14,7 +14,7 @@ export default function Questioncomon() {
             </div>
             <div className="questioncomon-card-details">
               <div className="questioncomon-card-image">
-                {commonquestion.Icons}
+               {commonquestion.Icons}
               </div>
             </div>
           </div>
