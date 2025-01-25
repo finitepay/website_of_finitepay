@@ -122,6 +122,16 @@ export default function Globalaccounts() {
                     <h1>Pay Anywhere</h1>
                     <p>Shop online or in-store, wherever you are.</p>
                 </div>
+
+                <div className="finitepaysection-card-one">
+                    <h1>No Currency Worries</h1>
+                    <p>Pay in any currency with no hidden fees, and no hassle</p>
+                </div>
+
+                <div className="finitepaysection-card-one">
+                    <h1>Instant & Safe</h1>
+                    <p>Get your card instantly and make secure payments on the go</p>
+                </div>
             </div>
         </div>
     </div>

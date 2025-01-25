@@ -489,7 +489,7 @@ body {
         align-items: center;
         flex-direction: column;
         text-align: center;
-        padding: 20px;
+        padding-top: 15px;
     }
 
     .finitepaysection-card-one h1{
@@ -501,6 +501,7 @@ body {
         align-items: center;
         text-align: center;
         line-height: 1;
+        padding: 5px;
     }
 
     .finitepaysection-card-one p{
