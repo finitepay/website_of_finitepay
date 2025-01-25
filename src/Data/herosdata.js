@@ -209,31 +209,31 @@ const commonquestion =[
         id: 1,
         title : "Are there fees for transferring money?",
         Text: "Create your account, verify your identity, and add funds through bank transfer, mobile money, or card.",
-        Icons : <FaPlus/>
+         Icons : <FaPlus />
     },
     {
         id: 2,
         title : "How do I use my FinitePay Digital Card?",
         Text: "Convert your account balance to whichever currency you need. Over 50 different currencies.",
-        Icons : <FaPlus/>
+         Icons : <FaPlus />
     },
     {
         id: 3,
         title : "Can I use FinitePay for business transactions?",
         Text: "Send money to family, receive payments, pay bills, shop online at no extra charge.",
-        Icons : <FaPlus/>
+         Icons : <FaPlus />
     },
     {
         id: 4,
         title : "What countries can I send money to?",
         Text: "Send money to family, receive payments, pay bills, shop online at no extra charge.",
-        Icons : <FaPlus/>
+        Icons : <FaPlus />
     },
     {
         id: 5,
         title : "How do I withdraw my funds?",
         Text: "Send money to family, receive payments, pay bills, shop online at no extra charge.",
-        Icons : <FaPlus/>
+        Icons : <FaPlus />
     }
 ]
 
