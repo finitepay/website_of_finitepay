@@ -3,6 +3,15 @@ import Slider from "../Components/Slider";
 import connectdata, { africancountry } from "../Data/herosdata";
 
 export default function Businessaccountpages() {
+
+    if(africancountry.length === 8){
+        africancountry.push({
+                id: 9,
+                name : "Tanzania",
+                flag : "https://images.pexels.com/photos/915915/pexels-photo-915915.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        })
+    } 
+
   return (
     <div className="">
         <Slider />
@@ -87,7 +96,7 @@ export default function Businessaccountpages() {
         </div>
         
         {/* Second container design */}
-        <div className="">
+        <div className="herosing-card-container">
             {
                 africancountry.map((heros) => (
                   <div key={heros.id} className="herosing-card">
