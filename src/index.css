@@ -446,10 +446,22 @@ body {
 
     .finitepaysection-content-h1{
         color: #0B4F6C;
-        font-weight: bold;
+        font-weight: bolder;
         font-size: 25px;
         display: flex;
         justify-content: center;
         align-items: center;
+        text-align: center;
+        line-height: 1;
+    }
+
+    .finitepaysection-content-paragraph{
+        font-size: small;
+        font-weight: normal;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        line-height: 1.5;
     }
 }

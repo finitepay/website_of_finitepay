@@ -106,6 +106,10 @@ export default function Globalaccounts() {
             <div className="finitepaysection-content-h1">
                 <h1>SHOP, PAY, TRAVEL WITH FINITEPAY’S DIGITAL CARD </h1>
             </div>
+
+            <div className="finitepaysection-content-paragraph">
+                <p>Take your money with you wherever you are! With the FinitePay Digital Card, shopping, paying bills, or booking your next trip is as easy as a tap. Pay in any currency, anytime—securely and instantly, all from your phone.</p>
+            </div>
         </div>
     </div>
   );
