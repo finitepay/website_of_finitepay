@@ -134,6 +134,8 @@ export default function Globalaccounts() {
                 </div>
             </div>
         </div>
+
+        {/* Happy customers */}
     </div>
   );
 }
