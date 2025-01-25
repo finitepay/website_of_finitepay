@@ -15,10 +15,10 @@ export default function Businessaccountpages() {
 
          {/* Call to action button */}
          <div className="button-for-action">
+         <Link to="/">
               <button className="button">Personal Account</button>
-              <Link to="/businessaccount">
+            </Link> 
                   <button className="button">Business Account</button>
-              </Link>
          </div>
        </div> 
        
@@ -72,6 +72,19 @@ export default function Businessaccountpages() {
             </div>
         </div>
       </div>
+    </div>
+
+    {/* Adding third section */}
+    <div className="african-wallet-container">
+
+        <div className="">
+            <div className="african-wallet-content-h1">
+                <h1>Currently available in 38 African countries</h1>
+            </div>
+        </div>
+        
+        {/* Second container design */}
+        <div className=""></div>
     </div>
     </div>
   )
