@@ -75,8 +75,8 @@ export default function Globalaccounts() {
         </div>
       </div>
       {/* Adding a sending money section */}
+      <div className="white-by-default"></div>
       <div className="sending-money-container">
-        <div className="white-by-default"></div>
        <div className="sending-money-first-contenaire">
         <div className="sending-money-content-image">
                 <img src="https://images.pexels.com/photos/30149856/pexels-photo-30149856/free-photo-of-cozy-workspace-with-coffee-and-laptop-setup.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Sending Money Image" />
