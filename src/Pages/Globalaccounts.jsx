@@ -28,8 +28,8 @@ export default function Globalaccounts() {
             <div className="how-it-works-content">
                 <h2>How it works</h2>
         <div className="how-it-works-paragraph">
-        <p>Setting up your FinitePay account is quick and easy, with all transactions</p>
-        <p>secured to give you peace of mind.</p>
+        <p>Setting up your FinitePay account is quick and easy, with all transactions secured to give you peace of mind.</p>
+        
         </div>
             </div>
         </div>    
