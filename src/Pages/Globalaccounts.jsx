@@ -60,7 +60,7 @@ export default function Globalaccounts() {
             </p>
           </div>
         </div>
-      <div className="safety-content">
+      <div className="safetyness-content">
           {safety.map((safety) => (
             <div key={safety.id} className="safety-card">
               <div className="safety-card-image">

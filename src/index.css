@@ -319,7 +319,39 @@ body {
         justify-content: center;
         align-items: center;
         text-align: center;
-        padding:  10px;
+        padding: 10px;
+    }
+
+    .safetyness-content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 20px 20px;
+    }
+
+    .safety-card, .safety-card-details{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .safety-card-details h2{
+        color: #0B4F6C;
+        font-weight: bold;
+        font-size: larger;
+        margin-top: 5px;
+    }
+
+    .safety-card-details p{
+        font-weight: normal;
+        font-size: small;
+        color: #013F16;
+        margin-top: 3px;
+        text-align: center;
+        padding-bottom: 10px;
     }
  
 }
