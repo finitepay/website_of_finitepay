@@ -90,7 +90,7 @@ export default function Globalaccounts() {
                 </div>
 
                 <div className="sending-money-paragraph">
-                    <p>Sending money to your family back home has never been easier. Whether it’s supporting loved ones in Nairobi or Lagos, FinitePay makes it quick and affordable to transfer funds wherever you are.</p>
+                    <p>Sending money to your family back home has never been easier. Whether it’s supporting loved ones in Nairobi or Lagos, FinitePay makes it quick and affordable to transfer funds wherever you are.</p>
                     <p>With great exchange rates and low fees, you can send money in a few clicks and know that it’ll reach home fast and securely.</p>
                 </div>
             </div>

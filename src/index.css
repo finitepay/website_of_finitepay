@@ -241,11 +241,11 @@ body {
         color: #013F16;
     }
 
-    .how-it-works-container{
-        padding: 10px 10px;        
+    .how-it-works-container {
+        padding: 10px 10px;
     }
 
-    .how-it-works-content{
+    .how-it-works-content {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -253,14 +253,14 @@ body {
         gap: 10px;
     }
 
-    .how-it-works-content h2{
+    .how-it-works-content h2 {
         font-size: 30px;
         color: #013F16;
         font-weight: bold;
         text-transform: uppercase;
     }
 
-    .how-it-works-paragraph{
+    .how-it-works-paragraph {
         font-size: small;
         font-weight: normal;
         display: flex;
@@ -269,7 +269,7 @@ body {
         text-align: center;
     }
 
-    .how-it-works-object{
+    .how-it-works-object {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -277,50 +277,50 @@ body {
         gap: 44px;
     }
 
-    .how-it-works-object-container{
+    .how-it-works-object-container {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
     }
 
-    .how-it-works-object-details h2{
+    .how-it-works-object-details h2 {
         color: #0B4F6C;
         font-weight: bold;
         font-size: larger;
         margin-top: 5px;
     }
 
-    .how-it-works-object-details p{
+    .how-it-works-object-details p {
         font-weight: normal;
         font-size: small;
         color: #013F16;
         margin-top: 3px;
     }
 
-    .safety-content{
+    .safety-content {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
         gap: 10px;
-        
+
     }
 
-    .safety-container{
+    .safety-container {
         background: #F5EFE7;
         padding-top: 20px;
         padding-bottom: 20px;
     }
 
-    .safety-content h2{
+    .safety-content h2 {
         font-size: 20px;
         color: #013F16;
         font-weight: bold;
         text-transform: uppercase;
     }
 
-    .safety-paragraph{
+    .safety-paragraph {
         font-size: small;
         font-weight: normal;
         display: flex;
@@ -330,7 +330,7 @@ body {
         padding: 10px;
     }
 
-    .safetyness-content{
+    .safetyness-content {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -338,7 +338,8 @@ body {
         padding: 20px 20px;
     }
 
-    .safety-card, .safety-card-details{
+    .safety-card,
+    .safety-card-details {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -346,14 +347,14 @@ body {
         gap: 5px;
     }
 
-    .safety-card-details h2{
+    .safety-card-details h2 {
         color: #0B4F6C;
         font-weight: bold;
         font-size: larger;
         margin-top: 5px;
     }
 
-    .safety-card-details p{
+    .safety-card-details p {
         font-weight: normal;
         font-size: small;
         color: #013F16;
@@ -362,11 +363,12 @@ body {
         padding-bottom: 10px;
     }
 
-    .sending-money-container{
+    .sending-money-container {
         background: #2CBE18;
         padding: 20px 0;
     }
-    .sending-content-details{
+
+    .sending-content-details {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -374,17 +376,34 @@ body {
         gap: 10px;
     }
 
-    .send-money-h2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    .send-money-h2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
 
-    .sending-content-details h2{
+    .sending-content-details h2 {
         font-size: 25px;
-        color: #013F16;
+        color: white;
         font-weight: bold;
         text-transform: uppercase;
+    }
+
+    .sending-money-paragraph {
+        font-size: small;
+        font-weight: normal;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 20px;
+        color: white;
+        border: 2px solid white;
+    }
+
+    .sending-money-paragraph p {
+        text-align: start;
+        padding-top: 8px;
     }
 }
