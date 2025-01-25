@@ -41,7 +41,7 @@ export default function Questioncomon() {
         ))}
       </div>
       {/* Add your rest of your code here */}
-      <div className="">
+      <div className="ending-container">
        <div className="container-green">
              <div className="default-green"></div>
         </div>
