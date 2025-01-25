@@ -116,6 +116,13 @@ export default function Globalaccounts() {
            <div className="finitepaysection-content-h1-second">
                 <h1>Why You’ll Love Your Finitepay Card</h1>
             </div>
+
+            <div className="finitepaysection-contenair">
+                <div className="finitepaysection-card-one">
+                    <h1>Pay Anywhere</h1>
+                    <p>Shop online or in-store, wherever you are.</p>
+                </div>
+            </div>
         </div>
     </div>
   );
