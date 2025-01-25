@@ -240,5 +240,34 @@ body {
         color: #013F16;
     }
 
+    .how-it-works-container{
+        padding: 0px 0px 30px 30px;
+    }
+
+    .how-it-works-content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .how-it-works-content h2{
+        font-size: 30px;
+        color: #013F16;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    .how-it-works-paragraph{
+        font-size: small;
+        color: #013F16;
+        font-weight: normal;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+    }
  
 }

@@ -21,7 +21,18 @@ export default function Globalaccounts() {
                     ))
                 }
             </div>
-        </div>      
+        </div>  
+
+        {/* Hero details  and client details*/}
+        <div className="how-it-works-container">
+            <div className="how-it-works-content">
+                <h2>How it works</h2>
+        <div className="how-it-works-paragraph">
+        <p>Setting up your FinitePay account is quick and easy, with all transactions</p>
+        <p>secured to give you peace of mind.</p>
+        </div>
+            </div>
+        </div>    
     </div>
   )
 }
