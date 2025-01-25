@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import Slider from "../Components/Slider";
-import connectdata, { africancountry, getgrowing } from "../Data/herosdata";
+import connectdata, { africancountry, getgrowing, safety } from "../Data/herosdata";
 import SlaverHear from "../images/LayerHear1.png"
 
 export default function Businessaccountpages() {
@@ -158,7 +158,34 @@ export default function Businessaccountpages() {
             </div>
         </div>
 
-        <div className=""></div>
+        <div className="affordable-support"></div>
+
+    <div className="">
+        <div className="safety-container-new">
+      <div className="safety-content">
+          <h2>SERIOUS ABOUT SECURITY</h2>
+          <div className="safety-paragraph">
+            <p>
+            From encryption to fraud detection, your transactions are safe and secure, whether you&apos;re sending money or managing your business.
+            </p>
+          </div>
+        </div>
+      <div className="safetyness-content">
+          {safety.map((safety) => (
+            <div key={safety.id} className="safety-card">
+              <div className="safety-card-image">
+                <img src={safety.ImggetData} alt={safety.alt} />
+              </div>
+              <div className="safety-card-details">
+                <h2>{safety.title}</h2>
+                <p>{safety.Text}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+
         <div className=""></div>
     </div>
     </div>
