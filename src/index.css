@@ -361,5 +361,30 @@ body {
         text-align: center;
         padding-bottom: 10px;
     }
- 
+
+    .sending-money-container{
+        background: #2CBE18;
+        padding: 20px 0;
+    }
+    .sending-content-details{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .send-money-h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    }
+
+    .sending-content-details h2{
+        font-size: 25px;
+        color: #013F16;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
 }

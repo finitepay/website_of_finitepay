@@ -74,7 +74,28 @@ export default function Globalaccounts() {
           ))}
         </div>
       </div>
-    
+      {/* Adding a sending money section */}
+      <div className="sending-money-container">
+       <div className="sending-money-first-contenaire">
+        <div className="sending-money-content-image">
+                <img src="https://images.pexels.com/photos/30149856/pexels-photo-30149856/free-photo-of-cozy-workspace-with-coffee-and-laptop-setup.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Sending Money Image" />
+              </div>
+        </div>
+
+        <div className="sending-money-second-contenaire">
+            <div className="sending-content-details">
+                <div className="send-money-h2">
+                <h2>SEND MONEY BACK HOME </h2>
+                <h2>WITH EASE</h2>
+                </div>
+
+                <div className="sending-money-paragraph">
+                    <p>Sending money to your family back home has never been easier. Whether it’s supporting loved ones in Nairobi or Lagos, FinitePay makes it quick and affordable to transfer funds wherever you are.</p>
+                    <p>With great exchange rates and low fees, you can send money in a few clicks and know that it’ll reach home fast and securely.</p>
+                </div>
+            </div>
+        </div>
+      </div>
     </div>
   );
 }
