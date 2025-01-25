@@ -49,6 +49,8 @@ export default function Globalaccounts() {
             }
         </div>
       </div>
+
+      {/* adding the of  */}
     </div>
   );
 }

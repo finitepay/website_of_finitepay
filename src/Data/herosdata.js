@@ -14,6 +14,10 @@ import SlayerA from '../images/Layer01.png'
 import SlayerB from '../images/Layer02.png'
 import SlayerC from '../images/Layer03.png'
 
+import Lasyes01 from '../images/Layers1.png'
+import Lasyes02 from '../images/Layers02.png'
+import Lasyes03 from '../images/Layers03.png'
+
 const connectdata = [
     {
         id: 1,
