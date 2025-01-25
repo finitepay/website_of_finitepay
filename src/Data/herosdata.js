@@ -100,5 +100,26 @@ const howitworks = [
     }
 ]
 
+const safety = [
+    {
+        id: 1,
+        title : "Encryption",
+        Text: "Your transactions are encrypted from start to finish, ensuring your data is always secure.",
+        ImggetData : Lasyes01,
+    },
+    {
+        id: 2,
+        title : "Two-Factor Authentication",
+        Text: "Extra security to ensure only you can access your account.",
+        ImggetData : Lasyes02,
+    },
+    {
+        id: 3,
+        title : "Fraud Monitoring",
+        Text: "Real-time transaction monitoring to prevent unauthorized money transfer.",
+        ImggetData : Lasyes03,
+    }
+]
+
 export default connectdata;
-export {headerlogo, global , howitworks};
+export {headerlogo, global , howitworks, safety};
