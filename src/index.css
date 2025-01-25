@@ -543,12 +543,12 @@ body {
 
     .slider-card{
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         background: #D4F3E1;
-        width: 90%;
-        padding: 10px 10px;
-        margin: 0 auto;
-        gap: 10px;
+        padding: 10px;
+        width: 95%;
+        margin: 20px auto;
+        gap: 20px;
     }
 
     .slider-card-content{
@@ -581,5 +581,24 @@ body {
 
     .slider-card-text{
         padding-top: 5px;
+    }
+    .slider-card-location{
+        color: #0B4F6C;
+        font-weight: bolder;
+    }
+
+    .slider-controls{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        padding: 20px;
+    }
+    .slider-controls .slider-arrow-left, .slider-arrow-right{
+        background-color: #2CBE18;
+        font-size: 40px;
+        color: white;
+        padding: 10px;
+        border-radius: 50%;
     }
 }
