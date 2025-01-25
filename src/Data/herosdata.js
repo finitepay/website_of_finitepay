@@ -18,6 +18,8 @@ import Lasyes01 from '../images/Layers1.png'
 import Lasyes02 from '../images/Layers02.png'
 import Lasyes03 from '../images/Layers03.png'
 
+import autoslayter from '../images/LayerAuto1.png'
+
 import Plus from '../images/GroupPlus.png'
 
 import Business01 from '../images/Layering1.png'
@@ -139,6 +141,27 @@ const safety = [
         title : "Two-Factor Authentication",
         Text: "Extra security to ensure only you can access your account.",
         ImggetData : Lasyes02,
+    },
+    {
+        id: 3,
+        title : "Fraud Monitoring",
+        Text: "Real-time transaction monitoring to prevent unauthorized money transfer.",
+        ImggetData : Lasyes03,
+    }
+]
+
+const safetyTow = [
+    {
+        id: 1,
+        title : "Encryption",
+        Text: "Your transactions are encrypted from start to finish, ensuring your data is always secure.",
+        ImggetData : Lasyes01,
+    },
+    {
+        id: 2,
+        title : "Regulatory Compliance",
+        Text: "We adhere to global financial regulations, ensuring your funds are handled securely and responsibly.",
+        ImggetData : autoslayter,
     },
     {
         id: 3,
@@ -307,4 +330,4 @@ const africancountry = [
 
 
 export default connectdata;
-export {headerlogo, global , howitworks, safety, happyClient, commonquestion, africancountry, getgrowing};
+export {headerlogo, global , howitworks, safety, happyClient, commonquestion, africancountry, getgrowing, safetyTow};

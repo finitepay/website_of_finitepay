@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import Slider from "../Components/Slider";
-import connectdata, { africancountry, getgrowing, safety } from "../Data/herosdata";
+import connectdata, { africancountry, getgrowing, safetyTow } from "../Data/herosdata";
 import SlaverHear from "../images/LayerHear1.png"
 
 export default function Businessaccountpages() {
@@ -171,7 +171,7 @@ export default function Businessaccountpages() {
           </div>
         </div>
       <div className="safetyness-content">
-          {safety.map((safety) => (
+          {safetyTow.map((safety) => (
             <div key={safety.id} className="safety-card">
               <div className="safety-card-image">
                 <img src={safety.ImggetData} alt={safety.alt} />
