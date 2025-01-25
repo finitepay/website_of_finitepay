@@ -96,6 +96,7 @@ export default function Globalaccounts() {
                 </div>
             </div>
         </div>
+        <div className="default-green"></div>
       </div>
     </div>
   );
