@@ -74,9 +74,7 @@ body {
     padding: 10px;
 }
 
-.herosing-card{
-    
-}
+.herosing-card {}
 
 @keyframes reversePlay {
     from {
@@ -743,7 +741,7 @@ body {
         padding-bottom: 20px;
     }
 
-    .growth-container{
+    .growth-container {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -753,7 +751,7 @@ body {
         background: #E9EFEC;
     }
 
-    .growth-content h1{
+    .growth-content h1 {
         color: #0B4F6C;
         font-weight: bold;
         font-size: x-large;
@@ -764,7 +762,7 @@ body {
         line-height: 1;
     }
 
-    .growth-content-p{
+    .growth-content-p {
         font-size: small;
         display: flex;
         justify-content: center;
@@ -775,5 +773,19 @@ body {
         padding-top: 20px;
         margin: 0 auto;
         width: 95%;
+    }
+
+    .how-it-works-object-growth {
+        border-top: 1px solid #000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        padding: 10px;
+    }
+
+    .growth-card-container-object {
+        padding: 20px 20px;
+
     }
 }

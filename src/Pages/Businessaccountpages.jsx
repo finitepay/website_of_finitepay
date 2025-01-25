@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import Slider from "../Components/Slider";
-import connectdata, { africancountry } from "../Data/herosdata";
+import connectdata, { africancountry, getgrowing } from "../Data/herosdata";
 
 export default function Businessaccountpages() {
 
@@ -121,6 +121,21 @@ export default function Businessaccountpages() {
 
         {/* Second container design */}
         <div className="growth-card-container">
+        <div className="growth-card-container-object">
+            {
+                getgrowing.map((howitworks) => (
+                    <div key={howitworks.id} className="how-it-works-object-growth">
+                        <div className="how-it-works-object-image">
+                            <img src={howitworks.ImggetData} alt={howitworks.alt} />
+                        </div>
+                        <div className="how-it-works-object-details">
+                            <h2>{howitworks.title}</h2>
+                            <p>{howitworks.Text}</p>
+                        </div>
+                    </div>
+                ))
+            }
+        </div>
         </div>
     </div>
     </div>

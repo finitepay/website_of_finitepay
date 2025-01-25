@@ -111,13 +111,13 @@ const getgrowing = [
         id: 1,
         title : "Manage Multiple Currencies:",
         Text: "Easily handle payments in various currencies, whether you're traveling or expanding your business across borders.",
-        ImggetData : Business01,
+        ImggetData : Business02,
     }, 
     {
         id: 2,
         title : "Track Your Spending and Earnings:",
         Text: "Gain insights into your finances with detailed transaction reports and analytics, giving you full control.",
-        ImggetData : Business02,
+        ImggetData : Business01,
     },
     {
         id: 3,
