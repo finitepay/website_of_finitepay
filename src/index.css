@@ -537,7 +537,19 @@ body {
 
     /* design carousel */
     .slider-happy-clients{
-        height: 200px;
         background: #E8ECD7;
+    }
+
+    .slider-happy-clients-card{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .slider-happy-clients-card-image img{
+        height: 50px;
+        width: 50px;
+        border-radius: 50px;
     }
 }
