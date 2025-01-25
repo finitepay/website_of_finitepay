@@ -21,7 +21,7 @@ export default function Questioncomon() {
               onClick={() => toggleText(index)}
             >
               
-              <div className="">
+              <div className="dropdown-title">
               <h2>{question.title}</h2>
               </div>
 
@@ -30,7 +30,7 @@ export default function Questioncomon() {
                 {activeIndex === index ? "-" : "+"}
               </button>
              </div>
-             
+
             </div>
             {activeIndex === index && (
               <div className="questioncomon-card-text">
