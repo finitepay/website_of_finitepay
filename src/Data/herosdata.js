@@ -201,6 +201,24 @@ const happyClient = [
     }
 ];
 
+const commonquestion =[
+    {
+        id: 1,
+        title : "Are there fees for transferring money?",
+        Text: "Create your account, verify your identity, and add funds through bank transfer, mobile money, or card.",
+    },
+    {
+        id: 2,
+        title : "How do I use my FinitePay Digital Card?",
+        Text: "Convert your account balance to whichever currency you need. Over 50 different currencies.",
+    },
+    {
+        id: 3,
+        title : "Can I use FinitePay for business transactions?",
+        Text: "Send money to family, receive payments, pay bills, shop online at no extra charge.",
+    }
+]
+
 
 export default connectdata;
 export {headerlogo, global , howitworks, safety, happyClient};
