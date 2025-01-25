@@ -482,4 +482,33 @@ body {
         text-align: center;
         line-height: 1;
     }
+
+    .finitepaysection-card-one{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .finitepaysection-card-one h1{
+        color: #0B4F6C;
+        font-weight: bolder;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        line-height: 1;
+    }
+
+    .finitepaysection-card-one p{
+        font-weight: normal;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        line-height: 1.5;
+    }
 }
