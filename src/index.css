@@ -411,6 +411,9 @@ body {
         height: 300px !important;
         margin: 0 auto;
         border-radius: 20px;
-        margin-top: -230px;
+        margin-top: -150px;
+    }
+    .white-by-default{
+        background: white;
     }
 }
