@@ -140,6 +140,11 @@ export default function Globalaccounts() {
             <div className="header-text">
                 <h1 className="">TRUSTED BY PEOPLE LIKE YOU</h1>
             </div>
+
+            <div className="happy-customers-content-paragraphe">
+                <p>Hear directly from our users who are sending money home, managing their business payments, and enjoying the simplicity of global transactions.</p>
+                <p>See why they trust us to handle their finances with ease.</p>
+            </div>
         </div>
     </div>
   );
