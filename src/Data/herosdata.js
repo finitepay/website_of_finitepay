@@ -20,6 +20,10 @@ import Lasyes03 from '../images/Layers03.png'
 
 import Plus from '../images/GroupPlus.png'
 
+import Business01 from '../images/Layering1.png'
+import Business02 from '../images/Layering2.png'
+import Business03 from '../images/Layering3.png'
+
 const connectdata = [
     {
         id: 1,
@@ -99,6 +103,27 @@ const howitworks = [
         title : "Transact Free",
         Text: "Send money to family, receive payments, pay bills, shop online at no extra charge",
         ImggetData : SlayerC,
+    }
+]
+
+const getgrowing = [
+    {
+        id: 1,
+        title : "Manage Multiple Currencies:",
+        Text: "Easily handle payments in various currencies, whether you're traveling or expanding your business across borders.",
+        ImggetData : Business01,
+    }, 
+    {
+        id: 2,
+        title : "Track Your Spending and Earnings:",
+        Text: "Gain insights into your finances with detailed transaction reports and analytics, giving you full control.",
+        ImggetData : Business02,
+    },
+    {
+        id: 3,
+        title : "Access Global Markets:",
+        Text: "Tap into international opportunities with low-cost cross-border payments and global account access.",
+        ImggetData : Business03,
     }
 ]
 
@@ -282,4 +307,4 @@ const africancountry = [
 
 
 export default connectdata;
-export {headerlogo, global , howitworks, safety, happyClient, commonquestion, africancountry};
+export {headerlogo, global , howitworks, safety, happyClient, commonquestion, africancountry, getgrowing};

@@ -765,7 +765,6 @@ body {
     }
 
     .growth-content-p{
-        font-weight: normal;
         font-size: small;
         display: flex;
         justify-content: center;
@@ -773,7 +772,8 @@ body {
         text-align: center;
         line-height: 1.5;
         color: #0B4F6C;
-        padding-top: 10px;
-        padding-bottom: 20px;
+        padding-top: 20px;
+        margin: 0 auto;
+        width: 95%;
     }
 }
