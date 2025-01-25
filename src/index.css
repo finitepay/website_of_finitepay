@@ -470,4 +470,15 @@ body {
         margin: 0 auto;
         border-radius: 20px;
     }
+
+    .finitepaysection-content-h1-second{
+        color: #24637B;
+        font-weight: bolder;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        line-height: 1;
+    }
 }
