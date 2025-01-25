@@ -10,6 +10,10 @@ import global01 from '../images/Layer1.png'
 import global02 from '../images/Layer2.png'
 import global03 from '../images/Layer3.png'
 
+import SlayerA from '../images/Layer01.png'
+import SlayerB from '../images/Layer02.png'
+import SlayerC from '../images/Layer03.png'
+
 const connectdata = [
     {
         id: 1,
@@ -71,5 +75,26 @@ const global = [
     }
 ]
 
+const howitworks = [
+    {
+        id: 1,
+        title : "Sign up",
+        Text: "Create your account, verify your identity, and add funds through bank transfer, mobile money, or card.",
+        ImggetData : SlayerA,
+    }, 
+    {
+        id: 2,
+        title : "Manage your Wallets",
+        Text: "Convert your account balance to whichever currency you need Over 50 different currencies",
+        ImggetData : SlayerB,
+    },
+    {
+        id: 3,
+        title : "Transact Free",
+        Text: "Send money to family, receive payments, pay bills, shop online at no extra charge",
+        ImggetData : SlayerC,
+    }
+]
+
 export default connectdata;
-export {headerlogo, global};
+export {headerlogo, global , howitworks};

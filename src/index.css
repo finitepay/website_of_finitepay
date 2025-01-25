@@ -261,13 +261,11 @@ body {
 
     .how-it-works-paragraph{
         font-size: small;
-        color: #013F16;
         font-weight: normal;
         display: flex;
         justify-content: center;
         align-items: center;
         text-align: center;
-        gap: 10px;
     }
  
 }
