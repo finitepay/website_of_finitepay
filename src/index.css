@@ -534,4 +534,10 @@ body {
         text-align: center;
         padding: 10px;
     }
+
+    /* design carousel */
+    .slider-happy-clients{
+        height: 200px;
+        background: #E8ECD7;
+    }
 }

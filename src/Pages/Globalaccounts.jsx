@@ -1,4 +1,5 @@
 import { global, howitworks, safety } from "../Data/herosdata";
+import Slidercarousel from "./Slidercarousel";
 
 export default function Globalaccounts() {
   return (
@@ -145,6 +146,7 @@ export default function Globalaccounts() {
                 <p>Hear directly from our users who are sending money home, managing their business payments, and enjoying the simplicity of global transactions.</p>
                 <p>See why they trust us to handle their finances with ease.</p>
             </div>
+            <Slidercarousel />
         </div>
     </div>
   );

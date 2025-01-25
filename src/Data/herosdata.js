@@ -121,5 +121,86 @@ const safety = [
     }
 ]
 
+const happyClient = [
+    {
+        id: 1,
+        name: "Jane Doe Wafula",
+        profilePhoto: "https://images.pexels.com/photos/30369254/pexels-photo-30369254/free-photo-of-mother-and-child-in-traditional-african-attire-outdoors.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        Location: "Expat in Germany",
+        Text: "FinitePay has made sending money back home so easy and affordable. The low fees and fast transfers mean my family gets the support they need, without any hassle!",
+    },
+    {
+        id: 2,
+        name: "Kwame Mensah",
+        profilePhoto: "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        Location: "Student in the USA",
+        Text: "With FinitePay, I can support my siblings' education without worrying about expensive transfer fees. It's quick and reliable!",
+    },
+    {
+        id: 3,
+        name: "Fatima Yusuf",
+        profilePhoto: "https://images.pexels.com/photos/4587382/pexels-photo-4587382.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        Location: "Entrepreneur in Dubai",
+        Text: "I love how transparent FinitePay is with their charges. It's made managing my family remittances stress-free.",
+    },
+    {
+        id: 4,
+        name: "Ali Khan",
+        profilePhoto: "https://images.pexels.com/photos/10473006/pexels-photo-10473006.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        Location: "Software Engineer in Canada",
+        Text: "The app's ease of use is unmatched. FinitePay saves me both time and money when sending funds back home.",
+    },
+    {
+        id: 5,
+        name: "Njeri Wanjiku",
+        profilePhoto: "https://images.pexels.com/photos/1839611/pexels-photo-1839611.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        Location: "Nurse in the UK",
+        Text: "FinitePay gives me peace of mind knowing my parents receive their money on time. I can't imagine using another service.",
+    },
+    {
+        id: 6,
+        name: "Samuel Osei",
+        profilePhoto: "https://images.pexels.com/photos/3785070/pexels-photo-3785070.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        Location: "Freelancer in South Africa",
+        Text: "I love how affordable it is to send funds. It's a game-changer for me and my family.",
+    },
+    {
+        id: 7,
+        name: "Amina Adan",
+        profilePhoto: "https://images.pexels.com/photos/4076705/pexels-photo-4076705.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        Location: "Fashion Designer in France",
+        Text: "My experience with FinitePay has been fantastic. The low fees and real-time updates keep me coming back.",
+    },
+    {
+        id: 8,
+        name: "John Kamau",
+        profilePhoto: "https://images.pexels.com/photos/6148105/pexels-photo-6148105.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        Location: "Expat in Australia",
+        Text: "Sending money home has never been easier. FinitePay is my go-to solution for quick and safe transfers.",
+    },
+    {
+        id: 9,
+        name: "Mary Achola",
+        profilePhoto: "https://images.pexels.com/photos/6055149/pexels-photo-6055149.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        Location: "Accountant in the Netherlands",
+        Text: "The customer support is excellent, and the app is easy to use. I feel confident using FinitePay for all my transfers.",
+    },
+    {
+        id: 10,
+        name: "Moses Okoth",
+        profilePhoto: "https://images.pexels.com/photos/10154233/pexels-photo-10154233.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        Location: "Researcher in Japan",
+        Text: "FinitePay provides me with great rates and fast delivery. My family is always happy when the money arrives on time.",
+    },
+    {
+        id: 11,
+        name: "Chipo Moyo",
+        profilePhoto: "https://images.pexels.com/photos/2422494/pexels-photo-2422494.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        Location: "Teacher in China",
+        Text: "FinitePay is reliable and affordable. It's the best platform for sending money back to my loved ones.",
+    }
+];
+
+
 export default connectdata;
-export {headerlogo, global , howitworks, safety};
+export {headerlogo, global , howitworks, safety, happyClient};
