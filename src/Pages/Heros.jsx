@@ -1,4 +1,5 @@
 import connectdata, { headerlogo } from "../Data/herosdata"
+import { Link } from "react-router-dom"
 
 
 export default function Heros() {
@@ -12,8 +13,9 @@ export default function Heros() {
          {/* Call to action button */}
          <div className="button-for-action">
               <button className="button">Personal Account</button>
-             
-              <button className="button">Business Account</button>
+              <Link to="/businessaccount">
+                  <button className="button">Business Account</button>
+              </Link>
          </div>
        </div> 
        
