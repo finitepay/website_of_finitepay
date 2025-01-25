@@ -12,9 +12,6 @@ export default function Questioncomon() {
     <div className="questioncomonBody">
       <div className="questioncomon-main-content">
         <h1 className="questioncomon-title">Frequently Asked Questions</h1>
-        <p className="questioncomon-subtitle">
-          Click on a question to reveal the answer!
-        </p>
       </div>
       <div className="questioncomon-content">
         {commonquestion.map((question, index) => (
@@ -23,10 +20,17 @@ export default function Questioncomon() {
               className="questioncomon-card-header"
               onClick={() => toggleText(index)}
             >
+              
+              <div className="">
               <h2>{question.title}</h2>
-              <button className="toggle-button">
+              </div>
+
+             <div className="">
+             <button className="toggle-button">
                 {activeIndex === index ? "-" : "+"}
               </button>
+             </div>
+             
             </div>
             {activeIndex === index && (
               <div className="questioncomon-card-text">
