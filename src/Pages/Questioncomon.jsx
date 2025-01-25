@@ -25,7 +25,7 @@ export default function Questioncomon() {
               <h2>{question.title}</h2>
               </div>
 
-             <div className="">
+             <div className="active-button">
              <button className="toggle-button">
                 {activeIndex === index ? "-" : "+"}
               </button>
@@ -39,6 +39,12 @@ export default function Questioncomon() {
             )}
           </div>
         ))}
+      </div>
+      {/* Add your rest of your code here */}
+      <div className="">
+        <div className="button-for-action-manner">
+            
+        </div>
       </div>
     </div>
   );

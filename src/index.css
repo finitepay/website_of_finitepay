@@ -627,7 +627,7 @@ body {
         display: flex;
         justify-content: center;
         flex-direction: column;
-        padding: 20px;
+        padding: 10px ;
         background: #D4F3E1;
     }
 
@@ -643,7 +643,6 @@ body {
         font-weight: normal;
         font-size: small;
         display: flex;
-        line-height: 1.5;
         color: #0B4F6C;
         padding-top: 5px;
     }
@@ -651,6 +650,11 @@ body {
         font-weight: normal;
         font-size: 15px;
         color: #0B4F6C;
-        line-height: 1;
+    }
+
+    .active-button{
+        color: #2CBE18;
+        font-size: 30px;
+        cursor: pointer;
     }
 }
