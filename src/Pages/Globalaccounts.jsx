@@ -100,6 +100,8 @@ export default function Globalaccounts() {
              <div className="default-green"></div>
         </div>
       </div>
+
+        {/* Adding a finitepaysection money section */}
     </div>
   );
 }
