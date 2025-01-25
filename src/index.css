@@ -543,10 +543,35 @@ body {
     .slider-card{
         display: flex;
         justify-content: center;
-        align-items: center;
         padding: 20px;
         gap: 10px;
     }
 
+    .slider-card-content{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
 
+    .slider-card-image img{
+        border-radius: 50%;
+        width: 200px;
+        height: 50px;
+        object-fit: fill;
+    }
+
+    .slider-card-content h3{
+        color: #0B4F6C;
+        font-weight: bolder;
+        font-size: 20px;
+        display: flex;
+        line-height: 1;
+    }
+
+    .slider-card-content p{
+        font-weight: normal;
+        font-size: small;
+        display: flex;
+        line-height: 1.5;
+    }
 }

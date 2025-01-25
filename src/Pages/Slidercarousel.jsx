@@ -19,11 +19,6 @@ export default function SliderCarousel() {
 
   return (
     <div className="slider-container">
-      <h2 className="slider-title">Trusted by People Like You</h2>
-      <p className="slider-subtitle">
-        Hear directly from our users who are sending money home, managing their
-        business payments, and enjoying the simplicity of global transactions.
-      </p>
       <div className="slider-content">
         <button className="arrow-button left" onClick={handlePrev}>
           <FiArrowLeft />
@@ -41,7 +36,7 @@ export default function SliderCarousel() {
             <p className="slider-card-location">
               {happyClient[currentIndex].Location}
             </p>
-            <p className="slider-card-text">{happyClient[currentIndex].Text}</p>
+            <p className="slider-card-text line-clamp-3">{happyClient[currentIndex].Text}</p>
           </div>
         </div>
 
