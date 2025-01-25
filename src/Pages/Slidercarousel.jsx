@@ -18,12 +18,9 @@ export default function SliderCarousel() {
   };
 
   return (
+    <>
     <div className="slider-container slider-happy-clients">
       <div className="slider-content">
-        <button className="arrow-button left" onClick={handlePrev}>
-          <FiArrowLeft />
-        </button>
-
         <div className="slider-card ">
           <div className="slider-card-image">
             <img
@@ -39,11 +36,12 @@ export default function SliderCarousel() {
             <p className="slider-card-text ">{happyClient[currentIndex].Text}</p>
           </div>
         </div>
-
-        <button className="arrow-button right" onClick={handleNext}>
-          <FiArrowRight />
-        </button>
       </div>
     </div>
+    <div className="slider-controls">
+      <FiArrowLeft className="slider-arrow-left" onClick={handlePrev} />
+      <FiArrowRight className="slider-arrow-right" onClick={handleNext} />
+    </div>
+    </>
   );
 }

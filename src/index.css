@@ -544,7 +544,10 @@ body {
     .slider-card{
         display: flex;
         justify-content: center;
-        padding: 20px;
+        background: #D4F3E1;
+        width: 90%;
+        padding: 10px 10px;
+        margin: 0 auto;
         gap: 10px;
     }
 
@@ -575,7 +578,7 @@ body {
         display: flex;
         line-height: 1.5;
     }
-    
+
     .slider-card-text{
         padding-top: 5px;
     }
