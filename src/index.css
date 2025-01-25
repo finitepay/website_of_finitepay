@@ -763,4 +763,17 @@ body {
         text-align: center;
         line-height: 1;
     }
+
+    .growth-content-p{
+        font-weight: normal;
+        font-size: small;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        line-height: 1.5;
+        color: #0B4F6C;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
 }
