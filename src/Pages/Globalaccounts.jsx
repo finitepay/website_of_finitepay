@@ -102,6 +102,11 @@ export default function Globalaccounts() {
       </div>
 
         {/* Adding a finitepaysection money section */}
+        <div className="finitepaysection">
+            <div className="finitepaysection-content-h1">
+                <h1>SHOP, PAY, TRAVEL WITH FINITEPAY’S DIGITAL CARD </h1>
+            </div>
+        </div>
     </div>
   );
 }
