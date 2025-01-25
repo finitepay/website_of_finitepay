@@ -365,8 +365,8 @@ body {
 
     .sending-money-container {
         background: #2CBE18;
-        
         padding-top: 100px;
+        padding-bottom: 50px;
     }
 
     .sending-content-details {
@@ -419,11 +419,19 @@ body {
         width: 100% !important;
     }
 
+    .container-green{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
     .default-green{
         background: #013F16;
-        border-radius: 15px;
-        cursor: pointer;
+        padding: 10px;
+        border-radius: 10px;
+        font-weight: bold;
         height: 40px;
-        width: 40% !important;
+        width: 150px;
     }
 }
