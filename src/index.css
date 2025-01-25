@@ -310,7 +310,7 @@ body {
     .safety-container {
         background: #F5EFE7;
         padding-top: 20px;
-        padding-bottom: 150px;
+        padding-bottom: 20px;
     }
 
     .safety-content h2 {
@@ -411,9 +411,11 @@ body {
         height: 300px !important;
         margin: 0 auto;
         border-radius: 20px;
-        margin-top: -150px;
+        margin-top: -230px;
     }
     .white-by-default{
         background: white;
+        height: 200px;
+        width: 100% !important;
     }
 }
