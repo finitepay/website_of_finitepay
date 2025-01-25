@@ -540,16 +540,13 @@ body {
         background: #E8ECD7;
     }
 
-    .slider-happy-clients-card{
+    .slider-card{
         display: flex;
         justify-content: center;
         align-items: center;
+        padding: 20px;
         gap: 10px;
     }
 
-    .slider-happy-clients-card-image img{
-        height: 50px;
-        width: 50px;
-        border-radius: 50px;
-    }
+
 }

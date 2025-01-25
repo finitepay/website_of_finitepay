@@ -1,28 +1,54 @@
+import { useState } from "react";
+import { FiArrowLeft, FiArrowRight } from "react-icons/fi";
 import { happyClient } from "../Data/herosdata";
 
+export default function SliderCarousel() {
+  const [currentIndex, setCurrentIndex] = useState(0);
 
-export default function Slidercarousel() {
+  const handlePrev = () => {
+    setCurrentIndex((prevIndex) =>
+      prevIndex === 0 ? happyClient.length - 1 : prevIndex - 1
+    );
+  };
+
+  const handleNext = () => {
+    setCurrentIndex((prevIndex) =>
+      prevIndex === happyClient.length - 1 ? 0 : prevIndex + 1
+    );
+  };
+
   return (
-    <div className="slider-happy-clients">
-        <div className="slider-happy-clients-content">
-            {
-                happyClient.map((happyClient) => (
-                    <div key={happyClient.id} className="slider-happy-clients-card">
-                      <div className="slider-happy-clients-card-image">
-                         <img src={happyClient.image} alt={happyClient.alt} />
-                      </div>
-                        <div className="">
-                        <h2>{happyClient.name}</h2>
-                        <p>{happyClient.Location}</p>
+    <div className="slider-container">
+      <h2 className="slider-title">Trusted by People Like You</h2>
+      <p className="slider-subtitle">
+        Hear directly from our users who are sending money home, managing their
+        business payments, and enjoying the simplicity of global transactions.
+      </p>
+      <div className="slider-content">
+        <button className="arrow-button left" onClick={handlePrev}>
+          <FiArrowLeft />
+        </button>
 
-                       <div className="">
-                          <p>{happyClient.Text}</p>
-                       </div>
-                    </div>
-                    </div>
-                ))
-            }
+        <div className="slider-card">
+          <div className="slider-card-image">
+            <img
+              src={happyClient[currentIndex].profilePhoto}
+              alt={happyClient[currentIndex].name}
+            />
+          </div>
+          <div className="slider-card-content">
+            <h3 className="slider-card-name">{happyClient[currentIndex].name}</h3>
+            <p className="slider-card-location">
+              {happyClient[currentIndex].Location}
+            </p>
+            <p className="slider-card-text">{happyClient[currentIndex].Text}</p>
+          </div>
         </div>
+
+        <button className="arrow-button right" onClick={handleNext}>
+          <FiArrowRight />
+        </button>
+      </div>
     </div>
-  )
+  );
 }
