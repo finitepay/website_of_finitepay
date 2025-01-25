@@ -545,7 +545,7 @@ body {
         display: flex;
         justify-content: space-between;
         background: #D4F3E1;
-        padding: 10px;
+        padding: 20px 10px;
         width: 95%;
         margin: 20px auto;
         gap: 20px;
@@ -558,10 +558,9 @@ body {
     }
 
     .slider-card-image img{
-        border-radius: 50%;
-        width: 200px;
-        height: 50px;
-        object-fit: fill;
+        border-radius: 100%;
+        width: 100px;
+        object-fit: contain;
     }
 
     .slider-card-content h3{
@@ -591,7 +590,7 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 10px;
+        gap: 20px;
         padding: 20px;
     }
     .slider-controls .slider-arrow-left, .slider-arrow-right{
