@@ -42,8 +42,8 @@ export default function Questioncomon() {
       </div>
       {/* Add your rest of your code here */}
       <div className="">
-        <div className="button-for-action-manner">
-            
+       <div className="container-green">
+             <div className="default-green"></div>
         </div>
       </div>
     </div>
