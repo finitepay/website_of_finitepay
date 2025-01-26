@@ -328,6 +328,46 @@ const africancountry = [
 
 ]
 
+const business =[
+    {
+        id: 1,
+        title : "Multi-Currency Business Wallet",
+        Text: "Create your account, verify your identity, and add funds through bank transfer, mobile money, or card.",
+        Img : "https://images.pexels.com/photos/915915/pexels-photo-915915.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        id: 2,
+        title : "Payment Integration for Businesses",
+        Text: "APIs and plugins to integrate FinitePay as a payment gateway on e-commerce platforms or websites Instant notifications and reconciliation for incoming payments",
+        Img : "https://images.pexels.com/photos/915915/pexels-photo-915915.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        id: 3,
+        title : "Global and Local Payments",
+        Text: "Seamless cross-border payments to suppliers, employees, or partners worldwide with low fees.",
+        Img : "https://images.pexels.com/photos/915915/pexels-photo-915915.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        id: 4,
+        title : "Vendor and Supplier Payments",
+        Text: "Bulk payments to multiple recipients in one transaction Automated and scheduled payments to avoid missed deadlines.",
+        Img : "https://images.pexels.com/photos/915915/pexels-photo-915915.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    },
+    {
+        id: 5,
+        title : " Enhanced Security for Businesses",
+        Text: "Multi-user account access with role-based permissions for teams. Advanced fraud detection and security measures tailored for businesses.",
+        Img : "https://images.pexels.com/photos/915915/pexels-photo-915915.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    },
+    {
+        id: 6,
+        title : "Customer Support for Businesses",
+        Text: "Dedicated account managers for high-value accounts 24/7 priority support for quick resolutions to any issues.",
+        Img : "https://images.pexels.com/photos/915915/pexels-photo-915915.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    }
+
+]
+
 
 export default connectdata;
-export {headerlogo, global , howitworks, safety, happyClient, commonquestion, africancountry, getgrowing, safetyTow};
+export {headerlogo, global , howitworks, safety, happyClient, commonquestion, africancountry, getgrowing, safetyTow, business};
