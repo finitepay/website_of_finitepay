@@ -59,7 +59,7 @@ export default function Heros() {
                     <p>Designed for Africa, our wallet lets you manage<br className="hidden md:hidden sm:block"/> your finances in multiple currencies, all <br className="lg:block md:hidden sm:block"/> while staying connected back home.</p>
                 </div>
             </div>
-            <div className="button-for-action-one">
+            <div className="button-for-action-one ">
               <button className="button">Open a personal account</button>
               <button className="button">Login</button>
          </div>
