@@ -13,9 +13,9 @@ export default function Heros() {
 
          {/* Call to action button */}
          <div className="button-for-action flex justify-between items-center gap-10 ">
-              <button className="button border border-secondaryColor p-2 w-[200px] rounded-full text-white">Personal Account</button>
+              <button className="button border border-secondaryColor p-2 w-[200px] rounded-full text-slate-800">Personal Account</button>
               <Link to="/businessaccount">
-                  <button className="button border border-secondaryColor p-2 w-[200px] rounded-full text-white">Business Account</button>
+                  <button className="button border border-secondaryColor p-2 w-[200px] rounded-full text-slate-800">Business Account</button>
               </Link>
          </div>
        </div> 
