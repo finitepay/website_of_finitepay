@@ -150,11 +150,15 @@ export default function Globalaccounts() {
                 <h1 className="">TRUSTED BY PEOPLE LIKE YOU</h1>
             </div>
 
-            <div className="happy-customers-content-paragraphe">
+          <div className="position-relative">
+
+           <div className="happy-customers-content-paragraphe">
                 <p>Hear directly from our users who are sending money home, managing their business payments, and enjoying the simplicity of global transactions.</p>
                 <p>See why they trust us to handle their finances with ease.</p>
             </div>
+            
             <Slidercarousel />
+          </div>
         </div>
     </div>
   );

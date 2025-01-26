@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { FiArrowLeft, FiArrowRight } from "react-icons/fi";
 import { happyClient } from "../Data/herosdata";
-import Questioncomon from "./Questioncomon";
+// import Questioncomon from "./Questioncomon";
 
 export default function SliderCarousel() {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -39,13 +39,15 @@ export default function SliderCarousel() {
         </div>
       </div>
     </div>
+    <div className="slider-navigation-position">
     <div className="slider-controls">
       <FiArrowLeft className="slider-arrow-left" onClick={handlePrev} />
       <FiArrowRight className="slider-arrow-right" onClick={handleNext} />
     </div>
+    </div>
 
     {/* Another component */}
-    <Questioncomon />
+    {/* <Questioncomon /> */}
     </>
   );
 }
