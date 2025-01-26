@@ -56,7 +56,9 @@ export default function Globalaccounts() {
       {/* adding the part of safety in this code.... */}
       <div className="safety-container">
       <div className="safety-content">
-          <h2>YOUR SAFETY COMES FIRST</h2>
+         <div>
+           <h2>YOUR SAFETY COMES FIRST</h2>
+         </div>
           <div className="safety-paragraph">
             <p>
             From encryption to fraud detection, your transactions are safe and secure, whether you&apos;re sending money or managing your business.
