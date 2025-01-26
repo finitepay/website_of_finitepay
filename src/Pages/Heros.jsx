@@ -47,8 +47,8 @@ export default function Heros() {
             }
             </div>
 
-            <div className="">
-                <h1 className="header-text-heors">A WALLET BUILT FOR<br /> AFRICA, READY FOR <br />
+            <div className="flex flex-col gap-5 justify-center">
+                <h1 className="header-text-heors text-headertext text-5xl font-extrabold">A WALLET BUILT FOR<br className="hidden md:hidden sm:block"/> AFRICA,<br className="lg:block md:hidden sm:block"/> READY FOR 
                 THE WORLD</h1>
 
                 <div className="hearos-line-paragraph">
