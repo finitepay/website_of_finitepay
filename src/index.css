@@ -849,4 +849,15 @@ body {
         padding-bottom: 50px;
         background: #E9EFEC;
     }
+
+    .business-growth-partner-h1{
+        color: #0B4F6C;
+        font-weight: bold;
+        font-size: x-large;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        line-height: 1;
+    }
 }

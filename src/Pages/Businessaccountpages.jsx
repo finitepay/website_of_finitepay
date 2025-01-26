@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import Slider from "../Components/Slider";
-import connectdata, { africancountry, getgrowing, safetyTow } from "../Data/herosdata";
+import connectdata, { africancountry, getgrowing, happyClient, safetyTow } from "../Data/herosdata";
 import SlaverHear from "../images/LayerHear1.png"
 
 export default function Businessaccountpages() {
@@ -191,7 +191,24 @@ export default function Businessaccountpages() {
 
     {/* WHAT MAKES FINITEPAY BUSINESS YOUR GROWTH PARTNER */}
      <div className="business-growth-partner">
-      
+            <div className="business-growth-partner-h1">
+                <h1>WHAT MAKES FINITEPAY BUSINESS YOUR GROWTH PARTNER</h1>
+            </div>
+        <div className="business-growth-partner-content">
+            {
+                happyClient.map((howitworks) => (
+                    <div key={howitworks.id} className="how-it-works-object">
+                        <div className="how-it-works-object-image">
+                            <img src={howitworks.ImggetData} alt={howitworks.alt} />
+                        </div>
+                        <div className="how-it-works-object-details">
+                            <h2>{howitworks.title}</h2>
+                            <p>{howitworks.Text}</p>
+                        </div>
+                    </div>
+                ))
+            }
+        </div>
      </div>
     </div>
   )
