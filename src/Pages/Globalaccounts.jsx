@@ -1,6 +1,7 @@
 import { global, howitworks, safety } from "../Data/herosdata";
 import Slidercarousel from "./Slidercarousel";
-import './Myglobal.css'
+
+
 
 export default function Globalaccounts() {
   return (

@@ -97,7 +97,115 @@ body {
     background: linear-gradient(90deg, #D4F3E1 0%, #FFFCF5 100%);
     padding-bottom: 100px;
 }
+@media screen and (min-width: 469px) {
+    
+    .globalaccounts-card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background: #C4DAD2;
+        padding: 20px 20px;
+        gap: 44px;
+    }
 
+    .globalaccounts-card:nth-child(2) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: #E9EFEC;
+    }
+
+    .globalaccounts-content {
+        display: flex;
+        justify-content: center;
+    }
+
+    .globalaccounts-card-details {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .globalaccounts-card-details h2 {
+        color: #0B4F6C;
+        font-weight: bold;
+        font-size: large;
+        margin-top: 5px;
+    }
+
+    .globalaccounts-card-details p {
+        font-weight: normal;
+        font-size: small;
+        color: #013F16;
+        text-align: center;
+    }
+
+
+    .how-it-works-container {
+        padding: 10px 10px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .how-it-works-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .how-it-works-content h2 {
+        font-size: 30px;
+        color: #013F16;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    .how-it-works-paragraph {
+        font-size: medium;
+        font-weight: normal;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+   .how-it-works-object-container{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       gap: 10px;
+       padding-top: 50px;
+   }
+
+   .how-it-works-object-image{
+         display: flex;
+         justify-content: center;
+         align-items: center;
+   }
+
+
+    .how-it-works-object-details h2 {
+        color: #0B4F6C;
+        font-weight: bold;
+        font-size: larger;
+        margin-top: 5px;
+        text-align: center;
+    }
+
+    .how-it-works-object-details p {
+        font-weight: normal;
+        font-size: small;
+        color: #013F16;
+        margin-top: 3px;
+        text-align: center;
+    }
+}
 
 /* the project design start here */
 .button-for-action button:active {
