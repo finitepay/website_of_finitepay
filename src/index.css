@@ -278,6 +278,145 @@ body {
         width: 50px;
     }
 
+    .white-by-default {
+        background: white;
+        height: 200px;
+        width: 100% !important;
+    }
+
+    .sending-money-container {
+        background: #2CBE18;
+        padding: 50px;
+        display: flex;
+        flex-direction: row-reverse;
+        width: 1200px;
+        margin: 0 auto;
+    }
+
+    .sending-money-paragraph {
+        font-size: medium;
+        font-weight: normal;
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        flex-direction: column;
+        color: white;
+        padding-top: 20px;
+        width: 80%;
+        gap: 10px;
+    }
+
+    .send-money-h2{
+        text-align: start;
+        font-size: 50px;
+        color: white;
+        font-weight: bolder;
+        text-transform: uppercase;
+        line-height: 1;
+    }
+
+    .sending-money-paragraph p {
+        text-align: start;
+        line-height: 1.5;
+    }
+
+    .sending-money-content-image img {
+        width: 641px;
+        margin-top: -190px;
+    }
+
+
+    .section-money-pay{
+        display: flex;
+        justify-content: center;
+        flex-direction: row-reverse;
+        max-width: 1200px;
+        margin: 0 auto;
+        gap: 100px;
+        padding-top: 100px;
+    }
+
+
+
+
+    .finitepaysection-content-h1 {
+        color: #0B4F6C;
+        font-weight: bolder;
+        font-size: 60px;
+        display: flex;
+        line-height: 1;
+    }
+
+    .finitepaysection-content-paragraph {
+        font-size: 22px;
+        font-weight: normal;
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        flex-direction: column;
+        color: #013F16;
+        padding-top: 20px;
+        width: 90%;
+        gap: 50px;
+        margin-top: 50px;
+    }
+
+    .finitepaysection-money-content-image img {
+        width: 941px;
+        height: 463px;
+    }
+
+    .finitepaysection-content-h1-second {
+        color: #24637B;
+        font-weight: bolder;
+        font-size: 43px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        line-height: 1;
+        margin-top: 150px;
+    }
+
+    .finitepaysection-card-one {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .finitepaysection-contenair{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 30px;
+        padding-bottom: 100px;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .finitepaysection-card-one h1 {
+        color: #0B4F6C;
+        font-weight: bolder;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        line-height: 1;
+        padding: 5px;
+    }
+
+    .finitepaysection-card-one p {
+        font-weight: normal;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        line-height: 1.5;
+    }
+
 }
 
 /* the project design start here */

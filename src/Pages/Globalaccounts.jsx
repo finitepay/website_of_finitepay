@@ -108,15 +108,19 @@ export default function Globalaccounts() {
 
         {/* Adding a finitepaysection money section */}
         <div className="finitepaysection">
-            <div className="finitepaysection-content-h1">
+          <div className="section-money-pay">
+          <div className="">
+          <div className="finitepaysection-content-h1">
                 <h1>SHOP, PAY, TRAVEL WITH FINITEPAY’S DIGITAL CARD </h1>
             </div>
 
             <div className="finitepaysection-content-paragraph">
                 <p>Take your money with you wherever you are! With the FinitePay Digital Card, shopping, paying bills, or booking your next trip is as easy as a tap. Pay in any currency, anytime—securely and instantly, all from your phone.</p>
             </div>
+          </div>
             <div className="finitepaysection-money-content-image">
                 <img src="https://images.pexels.com/photos/30149856/pexels-photo-30149856/free-photo-of-cozy-workspace-with-coffee-and-laptop-setup.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Sending Money Image" />
+           </div>
            </div>
            <div className="finitepaysection-content-h1-second">
                 <h1>Why You’ll Love Your Finitepay Card</h1>
