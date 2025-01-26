@@ -190,9 +190,9 @@ export default function Businessaccountpages() {
     </div>
 
     {/* WHAT MAKES FINITEPAY BUSINESS YOUR GROWTH PARTNER */}
-    <div className="business-growth-partner">
+     <div className="business-growth-partner">
       
-    </div>
+     </div>
     </div>
   )
 }

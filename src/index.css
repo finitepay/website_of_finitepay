@@ -838,4 +838,15 @@ body {
         padding-top: 20px;
         padding-bottom: 20px;
     }
+
+    .business-growth-partner{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        background: #E9EFEC;
+    }
 }
