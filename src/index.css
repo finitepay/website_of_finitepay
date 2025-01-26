@@ -74,7 +74,7 @@ body {
     padding: 10px;
 }
 
-.business-growth-partner-content{
+.business-growth-partner-content {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     grid-gap: 5px;
@@ -820,11 +820,11 @@ body {
         width: 80%;
     }
 
-    .affordable-contenaire img{
+    .affordable-contenaire img {
         width: 20px;
     }
 
-    .affordable-container-main{
+    .affordable-container-main {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -835,19 +835,19 @@ body {
         padding-bottom: 50px;
     }
 
-    .affordable-support{
+    .affordable-support {
         background: #013F16;
         width: 40%;
         height: 50px;
     }
 
-     .safety-container-new {
+    .safety-container-new {
         background: white;
         padding-top: 20px;
         padding-bottom: 20px;
     }
 
-    .business-growth-partner{
+    .business-growth-partner {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -858,7 +858,7 @@ body {
         background: #E9EFEC;
     }
 
-    .business-growth-partner-h1{
+    .business-growth-partner-h1 {
         color: #0B4F6C;
         font-weight: bold;
         font-size: x-large;
@@ -869,21 +869,27 @@ body {
         line-height: 1;
     }
 
-    .business-growth-partner-content-card{
-       background: #2CBE18;
-         color: white;
-         padding: 10px;
+    .business-growth-partner-content-card {
+        background: #2CBE18;
+        color: white;
+        padding: 10px;
     }
 
-    .business-growth-partner-content-details h2{
-        color: white;
-        font-weight: bold;
-        font-size: medium;
+    .business-growth-partner-content-details {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+
+    }
+
+    .business-growth-partner-content-details h2 {
         display: flex;
         justify-content: center;
         align-items: center;
         text-align: center;
-        line-height: 1; 
-        margin-bottom: 10px;
+        line-height: 1;
+        margin-top: 20px;
     }
 }
