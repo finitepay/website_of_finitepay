@@ -532,6 +532,81 @@ body {
         top: 40px;
     }
 
+    .questioncomonBody {
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+    }
+
+    .questioncomon-main-content h1 {
+        font-size: 50px;
+        color: #0B4F6C;
+        font-weight: bolder;
+        line-height: 1;
+        padding: 10px;
+        text-transform: uppercase;
+    }
+
+    .none-for-now{
+        display: none;
+    }
+
+    .questioncomon-content {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background: #D4F3E1;
+        width: 150%;
+        margin: 0 auto;
+    }
+
+    .questioncomon-card {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .questioncomon-card-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 2px solid #0B4F6C;
+        width: 100%;
+    }
+
+    .questioncomon-card-text p {
+        font-weight: normal;
+        font-size: small;
+        display: flex;
+        color: #0B4F6C;
+        padding-top: 5px;
+    }
+
+    .dropdown-title {
+        font-weight: normal;
+        font-size: 15px;
+        color: #0B4F6C;
+    }
+
+    .active-button {
+        color: #2CBE18;
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+    .questioncomon-line{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .paragraph{
+        
+    }
+
 }
 
 /* the project design start here */
@@ -981,7 +1056,7 @@ body {
         line-height: 1.5;
     }
 
-    .happy-customers-container {
+    .happy-customers-container, .position-relative {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -1357,5 +1432,13 @@ body {
 
     .open-account-business {
         margin-top: 20px;
+    }
+
+    .none-for-now{
+        display: block;
+    }
+
+    .right-here{
+        display: none;
     }
 }

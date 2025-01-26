@@ -10,9 +10,11 @@ export default function Questioncomon() {
 
   return (
     <div className="questioncomonBody">
-      <div className="questioncomon-main-content">
+      <div className="questioncomon-main-content none-for-now">
         <h1 className="questioncomon-title">Frequently Asked Questions</h1>
       </div>
+
+    <div className="questioncomon-line">
       <div className="questioncomon-content">
         {commonquestion.map((question, index) => (
           <div key={question.id} className="questioncomon-card">
@@ -42,13 +44,17 @@ export default function Questioncomon() {
       </div>
       {/* Add your rest of your code here */}
       <div className="ending-container">
-        <div className="container-blue-paragraph">
+      <div className="questioncomon-main-content right-here">
+        <h1 className="questioncomon-title">Frequently Asked Questions</h1>
+      </div>
+        <div className="container-blue-paragraph paragraph">
             <h2>Any more questions?</h2>
             <p>Let’s get you the answer.</p>
         </div>
        <div className="container-green">
              <div className="default-green"></div>
         </div>
+      </div>
       </div>
     </div>
   );

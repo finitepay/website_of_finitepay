@@ -4,6 +4,7 @@ import Globalaccounts from './Pages/Globalaccounts'
 import Heros from './Pages/Heros'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Logopartner from './Pages/Logopartner'
+import Questioncomon from './Pages/Questioncomon'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
             <Heros />
             <Logopartner />
             <Globalaccounts />
+            <Questioncomon />
           </>
         } />
         <Route path="/businessaccount" element={<Businessaccountpages />} />
