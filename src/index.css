@@ -533,9 +533,9 @@ body {
     }
 
     .questioncomonBody {
-        padding: 0px;
         margin: 0px;
         width: 100%;
+        padding-bottom: 100px;
     }
 
     .questioncomon-main-content h1 {
@@ -604,7 +604,41 @@ body {
     }
 
     .paragraph{
-        
+        margin-left: 15px;
+        margin-top: 10px;
+    }
+
+    .paragraph h2{
+        color: #2CBE18;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .paragraph p{
+        color: #0B4F6C;
+        font-size: small;
+    }
+
+    .container-green {
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        gap: 10px;
+        margin-left: 15px;
+        margin-top: 10px;
+    }
+
+    .default-green {
+        background: #013F16;
+        padding: 10px;
+        border-radius: 10px;
+        font-weight: bold;
+        height: 40px;
+        width: 150px;
+    }
+
+    .not-again{
+        display: none;
     }
 
 }

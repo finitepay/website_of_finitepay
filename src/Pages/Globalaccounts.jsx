@@ -101,7 +101,7 @@ export default function Globalaccounts() {
                 </div>
             </div>
         </div>
-        <div className="container-green">
+        <div className="container-green not-again">
              <div className="default-green"></div>
         </div>
       </div>
