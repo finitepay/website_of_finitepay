@@ -94,8 +94,8 @@ body {
 
 /* the project design end here for desktop version...*/
 .herosBody {
-    background: linear-gradient( 90deg, #D4F3E1 0%, #FFFCF5 100%);
-    padding-bottom: 100px; 
+    background: linear-gradient(90deg, #D4F3E1 0%, #FFFCF5 100%);
+    padding-bottom: 100px;
 }
 
 
@@ -112,7 +112,7 @@ body {
         background: rgb(109, 110, 109);
     }
 
-    .logo-hero-responsive{
+    .logo-hero-responsive {
         width: 98%;
         margin: 0 auto;
     }
@@ -920,7 +920,7 @@ body {
         padding: 20px;
     }
 
-    .open-account-business{
+    .open-account-business {
         margin-top: 20px;
     }
 }
