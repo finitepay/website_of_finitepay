@@ -74,6 +74,14 @@ body {
     padding: 10px;
 }
 
+.business-growth-partner-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-gap: 5px;
+    padding-top: 10px;
+    padding: 20px;
+}
+
 .herosing-card {}
 
 @keyframes reversePlay {
@@ -859,5 +867,23 @@ body {
         align-items: center;
         text-align: center;
         line-height: 1;
+    }
+
+    .business-growth-partner-content-card{
+       background: #2CBE18;
+         color: white;
+         padding: 10px;
+    }
+
+    .business-growth-partner-content-details h2{
+        color: white;
+        font-weight: bold;
+        font-size: medium;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        line-height: 1; 
+        margin-bottom: 10px;
     }
 }
