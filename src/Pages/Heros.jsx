@@ -47,16 +47,16 @@ export default function Heros() {
             }
             </div>
 
-            <div className="flex flex-col gap-5 justify-center">
+            <div className="flex flex-col gap-5 justify-center pb-5">
                 <h1 className="header-text-heors text-headertext text-5xl font-extrabold">A WALLET BUILT FOR<br className="hidden md:hidden sm:block"/> AFRICA,<br className="lg:block md:hidden sm:block"/> READY FOR 
                 THE WORLD</h1>
 
-                <div className="hearos-line-paragraph">
-                    <p>Send, receive, and save money across borders with<br /> ease</p>
+                <div className="hearos-line-paragraph text-headertext text-base">
+                    <p>Send, receive, and save money across borders with<br className="hidden md:hidden sm:block"/> ease</p>
                 </div>
 
-                <div className="hearos-line-paragraph">
-                    <p>Designed for Africa, our wallet lets you manage<br /> your finances in multiple currencies, all while<br/> staying connected back home.</p>
+                <div className="hearos-line-paragraph text-headertext text-base">
+                    <p>Designed for Africa, our wallet lets you manage<br className="hidden md:hidden sm:block"/> your finances in multiple currencies, all <br className="lg:block md:hidden sm:block"/> while staying connected back home.</p>
                 </div>
             </div>
             <div className="button-for-action-one">
