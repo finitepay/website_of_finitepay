@@ -149,6 +149,8 @@ body {
         padding: 10px 10px;
         padding-top: 100px;
         padding-bottom: 100px;
+        max-width: 1200px;
+        margin: 0 auto;
     }
 
     .how-it-works-content {
@@ -196,15 +198,91 @@ body {
         font-size: larger;
         margin-top: 5px;
         text-align: center;
+        padding: 10px;
     }
 
     .how-it-works-object-details p {
-        font-weight: normal;
-        font-size: small;
+        font-weight: bold;
+        font-size: medium;
         color: #013F16;
         margin-top: 3px;
         text-align: center;
     }
+
+
+    .safety-content {
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        flex-direction: column;
+        gap: 10px;
+        padding: 0px 210px;
+    }
+
+    .safety-container {
+        background: #F5EFE7;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .safety-content h2 {
+        font-size: 20px;
+        color: #013F16;
+        font-weight: bold;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        text-align: start;
+
+    }
+
+    .safety-paragraph {
+        font-size: small;
+        font-weight: normal;
+        padding: 10px;
+        text-align: start;
+    }
+
+    .safetyness-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        padding: 20px 20px;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .safety-card,
+    .safety-card-details {
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .safety-card-details h2 {
+        color: #0B4F6C;
+        font-weight: bold;
+        font-size: larger;
+        margin-top: 5px;
+    }
+
+    .safety-card-details p {
+        font-weight: normal;
+        font-size: small;
+        color: #013F16;
+        margin-top: 3px;
+        text-align: start;
+        padding-bottom: 10px;
+    }
+
+    .safety-card-image img {
+        width: 50px;
+    }
+
 }
 
 /* the project design start here */
