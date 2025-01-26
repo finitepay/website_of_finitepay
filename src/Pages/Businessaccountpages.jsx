@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import Slider from "../Components/Slider";
 import connectdata, { africancountry, business, getgrowing, safetyTow } from "../Data/herosdata";
 import SlaverHear from "../images/LayerHear1.png"
+import SliderCarousel from "./Slidercarousel";
 
 export default function Businessaccountpages() {
 
@@ -220,6 +221,19 @@ export default function Businessaccountpages() {
             </div>
       </div>
      </div>
+
+     {/* Happy customers */}
+             <div className="happy-customers-container">
+                 <div className="header-text">
+                     <h1 className="">TRUSTED BY PEOPLE LIKE YOU</h1>
+                 </div>
+     
+                 <div className="happy-customers-content-paragraphe">
+                     <p>Hear directly from our users who are sending money home, managing their business payments, and enjoying the simplicity of global transactions.</p>
+                     <p>See why they trust us to handle their finances with ease.</p>
+                 </div>
+                 <SliderCarousel />
+             </div>
     </div>
   )
 }
