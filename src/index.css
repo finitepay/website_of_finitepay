@@ -39,7 +39,6 @@ body {
     animation: autoRun 90s linear infinite;
     transition: filter 0.5s;
     animation-delay: calc((90s / var(--quantity)) * (var(--position) - 1) - 90s) !important;
-    /* Adjusted for 60s */
 }
 
 @keyframes autoRun {
@@ -92,6 +91,11 @@ body {
     to {
         left: 100%;
     }
+}
+
+/* the project design end here for desktop version...*/
+.herosBody {
+    background: linear-gradient(290deg, #E9EFEC 0%, #C4DAD2 100%);
 }
 
 

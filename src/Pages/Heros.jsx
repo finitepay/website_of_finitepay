@@ -5,16 +5,17 @@ import { Link } from "react-router-dom"
 export default function Heros() {
   return (
     <div className="herosBody">
-       <div className="heros-main-content">
+      <div className="max-w-screen-2xl mx-auto">
+       <div className="heros-main-content flex justify-between items-center pt-7">
          <div className="">
-            <h1 className="header-text">FinitePay</h1>
+            <h1 className="header-text text-primaryText text-4xl font-extrabold">FinitePay</h1>
          </div>
 
          {/* Call to action button */}
-         <div className="button-for-action">
-              <button className="button">Personal Account</button>
+         <div className="button-for-action flex justify-between items-center gap-10 ">
+              <button className="button border border-secondaryColor p-2 w-[200px] rounded-full text-white">Personal Account</button>
               <Link to="/businessaccount">
-                  <button className="button">Business Account</button>
+                  <button className="button border border-secondaryColor p-2 w-[200px] rounded-full text-white">Business Account</button>
               </Link>
          </div>
        </div> 
@@ -79,6 +80,7 @@ export default function Heros() {
             </div>
           ))    
         }
+      </div>
       </div>
     </div>
   )
