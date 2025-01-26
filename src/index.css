@@ -910,4 +910,8 @@ body {
         align-items: center;
         padding: 20px;
     }
+
+    .open-account-business{
+        margin-top: 20px;
+    }
 }

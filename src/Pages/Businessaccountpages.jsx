@@ -214,7 +214,11 @@ export default function Businessaccountpages() {
                 ))
             }
         </div>
-
+      <div className="affordable-contenaire open-account-business">
+            <div className="">
+                <h1>Open a Finitepay Business Account</h1>
+            </div>
+      </div>
      </div>
     </div>
   )
