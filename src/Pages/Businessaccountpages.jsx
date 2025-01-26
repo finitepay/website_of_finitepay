@@ -199,7 +199,7 @@ export default function Businessaccountpages() {
             {
                 business.map((howitworks) => (
                     <div key={howitworks.id} className="business-growth-partner-content-card">
-                        <div className="h">
+                        <div className="business-growth-partner-content-image">
                             <img src={howitworks.Img} alt={howitworks.alt} />
                         </div>
                         <div className="business-growth-partner-content-details">

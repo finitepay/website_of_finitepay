@@ -76,10 +76,10 @@ body {
 
 .business-growth-partner-content {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
     grid-gap: 5px;
     padding-top: 10px;
-    padding: 20px;
+    padding: 10px;
 }
 
 .herosing-card {}
@@ -873,6 +873,7 @@ body {
         background: #2CBE18;
         color: white;
         padding: 10px;
+        border-radius: 10px;
     }
 
     .business-growth-partner-content-details {
@@ -892,5 +893,21 @@ body {
         margin-top: 20px;
         font-weight: bold;
         font-size: small;
+    }
+
+    .business-growth-partner-content-details p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-weight: normal;
+        font-size: small;
+    }
+
+    .business-growth-partner-content-image img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
     }
 }
