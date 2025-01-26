@@ -21,22 +21,24 @@ export default function Heros() {
        </div> 
        
        {/* Hero details  and client details*/}
-      <div className="heros-details-content">
+      <div className="heros-details-content mt-[5%]">
         {/* First container design */}
         <div className="first-container">
-            <div className="heros-card-container">
+            <div className="heros-card-container flex items-center gap-5">
             {
                 connectdata.map((heros) => (
-                  <div key={heros.id} className="heros-card">
-                    <div className="heros-card-image">
+                  <div key={heros.id} className="heros-card flex items-center">
+                    <div className="heros-card-image w-5 flex items-center justify-center">
                       <img src={heros.icons} alt={heros.alt} />
                     </div>
-                    <div className="heros-card-details">
-                    <div className="heros-card-image-two">
+                    <div className="heros-card-details flex items-center justify-center text-primaryText gap-2">
+                      <div className="text-xs">
+                        <p>{heros.view}</p>
+                      </div>
+                    <div className="heros-card-image-two w-5">
                       <img src={heros.stars} alt={heros.alt} />
                     </div>
-                     <div className="heros-card-text">
-                        <p>{heros.view}</p>
+                     <div className="heros-card-text text-xs">
                         <p>{heros.Text}</p>
                      </div>
                     </div>
