@@ -1,6 +1,6 @@
 import connectdata from "../Data/herosdata"
 import { Link } from "react-router-dom"
-
+import mbplusimg from '../Photo/Vector.svg'
 
 export default function Heros() {
   return (
@@ -67,8 +67,8 @@ export default function Heros() {
 
         {/* Second container design */}
         <div className="second-container">
-            <div className="second-container-image ">
-                <img  className="w-[540px] h-[363px] object-fill"  src="https://images.pexels.com/photos/30149856/pexels-photo-30149856/free-photo-of-cozy-workspace-with-coffee-and-laptop-setup.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Group_81" />
+            <div className="second-container-image">
+                <img  className="w-[840px] h-[540px] object-fill"  src={mbplusimg} alt="Group_81" />
             </div>
         </div>
       </div>

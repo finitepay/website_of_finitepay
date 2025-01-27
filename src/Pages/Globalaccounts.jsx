@@ -1,5 +1,7 @@
 import { global, howitworks, safety } from "../Data/herosdata";
 import Slidercarousel from "./Slidercarousel";
+import Img01 from "../Photo/VectorDens(1).svg"
+import Img02 from "../Photo/Vectornoders(1).svg"
 
 
 
@@ -84,7 +86,7 @@ export default function Globalaccounts() {
       <div className="sending-money-container">
        <div className="sending-money-first-contenaire">
         <div className="sending-money-content-image">
-                <img src="https://images.pexels.com/photos/30149856/pexels-photo-30149856/free-photo-of-cozy-workspace-with-coffee-and-laptop-setup.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Sending Money Image" />
+                <img src={Img01} alt="Sending Money Image" />
         </div>
         </div>
 
@@ -119,7 +121,7 @@ export default function Globalaccounts() {
             </div>
           </div>
             <div className="finitepaysection-money-content-image">
-                <img src="https://images.pexels.com/photos/30149856/pexels-photo-30149856/free-photo-of-cozy-workspace-with-coffee-and-laptop-setup.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Sending Money Image" />
+                <img className="w-[1500px]" src={Img02} alt="Sending Money Image" />
            </div>
            </div>
            <div className="finitepaysection-content-h1-second">
