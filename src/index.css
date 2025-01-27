@@ -61,25 +61,14 @@ body {
 }
 
 .slider[reverse="true"] .item {
-    animation: reversePlay 20s linear infinite;
+    animation: reversePlay 3s linear infinite;
     /* Changed from 10s to 20s */
 }
 
-.herosing-card-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-    grid-gap: 5px;
-    padding-top: 10px;
-    padding: 10px;
-}
 
-.business-growth-partner-content {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-    grid-gap: 5px;
-    padding-top: 10px;
-    padding: 10px;
-}
+
+
+
 
 .herosing-card {}
 
@@ -707,15 +696,7 @@ body {
         padding-bottom: 20px;
     }
 
-    .herosing-card-container {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-        grid-gap: 20px;
-        padding-top: 10px;
-        padding: 10px;
-        max-width: 1536px;
-        margin: 0 auto;
-    }
+
 
     .herosing-card-image img{
         border-radius: 10px;
@@ -838,13 +819,14 @@ body {
         display: flex;
         align-items: center;
         justify-content: center;
+        text-align: center;
         gap: 10px;
         background: #013F16;
         color: white;
         padding: 10px;
         font-size: medium;
         border-radius: 20px;
-        width: 20%;
+        width: 30%;
     }
 
     .affordable-contenaire img {
@@ -886,12 +868,109 @@ body {
         font-size: 40px;
     }
 
+
+
+    /* Last version controls */
+    .business-growth-partner-h1 {
+        color: #0B4F6C;
+        font-weight: bold;
+        font-size: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        line-height: 1;
+
+    }
+
+    .business-growth-partner{
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .business-growth-partner-content-card {
+        background: #2CBE18;
+        color: white;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .business-growth-partner-content-details {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+
+    }
+
+    .business-growth-partner-content-details h2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 20px;
+        font-weight: bold;
+        font-size: small;
+    }
+
+    .business-growth-partner-content-details p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-weight: normal;
+        font-size: small;
+    }
+
+    .business-growth-partner-content-image img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        padding: 20px;
+    }
+
+    .business-growth-partner-content {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 3fr));
+        grid-gap: 10px;
+        padding-top: 10px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        padding: 10px;
+    }
+
+    .Finitepay-getter{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 10px;
+        background: #013F16;
+        color: white;
+        padding: 10px;
+        font-size: medium;
+        border-radius: 20px;
+        width: 30%;
+        margin: 0 auto;
+        margin-bottom: 50px;
+        text-align: center;
+    }
 }
 
 /* the project design start here */
 .button-for-action button:active {
     background: #2CBE18;
     color: white;
+}
+
+.herosing-card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
+    grid-gap: 10px;
+    padding-top: 10px;
+    padding: 10px;
 }
 
 @media screen and (max-width: 468px) {
@@ -1709,9 +1788,15 @@ body {
         padding: 20px;
     }
 
-    .open-account-business {
-        margin-top: 20px;
+    .business-growth-partner-content{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+        grid-gap: 10px;
+        padding-top: 10px;
+        padding: 10px;
     }
+
+
 
     .none-for-now{
         display: block;

@@ -144,8 +144,8 @@ export default function Globalaccounts() {
             </div>
         </div>
 
-        {/* Happy customers */}
-        <div className="happy-customers-container">
+         {/* Happy customers */}
+         <div className="happy-customers-container">
             <div className="header-text">
                 <h1 className="">TRUSTED BY PEOPLE LIKE YOU</h1>
             </div>

@@ -214,7 +214,7 @@ export default function Businessaccountpages() {
     {/* WHAT MAKES FINITEPAY BUSINESS YOUR GROWTH PARTNER */}
      <div className="business-growth-partner">
             <div className="business-growth-partner-h1">
-                <h1>WHAT MAKES FINITEPAY BUSINESS YOUR GROWTH PARTNER</h1>
+                <h1>WHAT MAKES FINITEPAY BUSINESS <br className="right-here"/> YOUR GROWTH PARTNER</h1>
             </div>
         
         <div className="business-growth-partner-content">
@@ -236,24 +236,28 @@ export default function Businessaccountpages() {
                 ))
             }
         </div>
-      <div className="affordable-contenaire open-account-business">
-            <div className="">
+      <div className="open-account-business">
+            <div className="Finitepay-getter">
                 <h1>Open a Finitepay Business Account</h1>
             </div>
       </div>
      </div>
 
-     {/* Happy customers */}
+      {/* Happy customers */}
              <div className="happy-customers-container">
                  <div className="header-text">
                      <h1 className="">TRUSTED BY PEOPLE LIKE YOU</h1>
                  </div>
      
-                 <div className="happy-customers-content-paragraphe">
+               <div className="position-relative">
+     
+                <div className="happy-customers-content-paragraphe">
                      <p>Hear directly from our users who are sending money home, managing their business payments, and enjoying the simplicity of global transactions.</p>
                      <p>See why they trust us to handle their finances with ease.</p>
                  </div>
+                 
                  <SliderCarousel />
+               </div>
              </div>
     </div>
   )
