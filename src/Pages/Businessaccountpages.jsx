@@ -3,6 +3,7 @@ import Slider from "../Components/Slider";
 import connectdata, { africancountry, business, getgrowing, safetyTow } from "../Data/herosdata";
 import SlaverHear from "../images/LayerHear1.png"
 import SliderCarousel from "./Slidercarousel";
+import Extensioncomponents from "./Extensioncomponents";
 
 export default function Businessaccountpages() {
 
@@ -120,17 +121,23 @@ export default function Businessaccountpages() {
     </div>
 
     {/* A TOOL THAT ACTUALLY SUPPORTS YOUR GROWTH */}
+    <Extensioncomponents />
+    {/* Extension component */}
     <div className="growth-container">
         <div className="growth-content">
             <h1>A TOOL THAT ACTUALLY SUPPORTS YOUR GROWTH</h1>
             
-            <div className="growth-content-p">
+            <div className="growth-content-p willdisplay">
                <p>Our platform is designed to help you grow your business, whether you’re just starting out or you’re already a seasoned pro. With our easy-to-use tools, you can manage your finances, track your sales, and connect with customers—all in one place.</p>
             </div>
         </div>
 
         {/* Second container design */}
-        <div className="growth-card-container">
+    <div className="new-main-grow">
+    <div className="growth-content-p">
+               <p>Our platform is designed to help you grow your business, whether you’re just starting out or you’re already a seasoned pro. With our easy-to-use tools, you can manage your finances, track your sales, and connect with customers—all in one place.</p>
+            </div>
+    <div className="growth-card-container">
         <div className="growth-card-container-object">
             {
                 getgrowing.map((howitworks) => (
@@ -152,6 +159,7 @@ export default function Businessaccountpages() {
         </div>
         </div>
         </div>
+    </div>
     </div>
 
     {/* AFFORDABLE AND SAFE  24/7 Support*/}
