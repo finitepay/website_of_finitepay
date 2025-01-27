@@ -9,7 +9,12 @@ export default {
         primaryText: '#0B4F6C',
         secondaryColor: '#2CBE18',
         headertext : '#013F16'
-      }
+      },
+      screens: {
+        xs: '400px',
+        '3xl': '1680px',
+        '4xl': '2200px',
+      },
     },
   },
   plugins: [],
