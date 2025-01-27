@@ -1,3 +1,4 @@
+import { getgrowing } from "../Data/herosdata";
 
 export default function Extensioncomponents() {
   return (
@@ -12,11 +13,38 @@ export default function Extensioncomponents() {
             <div className="extensioncomponents-card-one">
            
             <div className="extensioncomponents-card-one-pargraph">
-               <p>Our platform is designed to help you grow your business, whether you’re just starting out or you’re already a seasoned pro. With our easy-to-use tools, you can manage your finances, track your sales, and connect with customers—all in one place.</p>
+               <p>FinitePay isn’t just another payment platform we are your growth partner.</p>
+               <p>Whether you&apos;re an individual managing your finances or a business scaling up, our features are designed to support your financial journey. From seamless transactions to powerful insights, we’re here to help you succeed, every step of the way.</p>
             </div>
 
-            
+            <div className="extensioncomponents-card-one-line">
+                {
+                getgrowing.map((grow) => (
+                    <div key={grow.id} className="extensioncomponents-card-one-line-content">
+                        <div className="extensioncomponents-card-one-line-image">
+                           <div>
+                             <img src={grow.ImggetData} alt={grow.alt} />  
+                           </div>
+                        </div>
+                    <div className="extensioncomponents-card-one-line-text">
+                        <div>
+                        <h1>{grow.title}</h1>
+                        </div>
+                        <div className="">
+                        <p>{grow.Text}</p>
+                        </div>
+                    </div>
+                    </div>
+                ))
+                }
             </div>
+
+            </div>
+
+            {/* the second card image */}
+            <div className="growth-img-container-image">
+                <img src="https://images.pexels.com/photos/30149856/pexels-photo-30149856/free-photo-of-cozy-workspace-with-coffee-and-laptop-setup.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Sending Money Image" />
+        </div>
         </div>
       </div>
     </div>

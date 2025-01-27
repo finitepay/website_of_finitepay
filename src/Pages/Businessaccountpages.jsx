@@ -180,7 +180,12 @@ export default function Businessaccountpages() {
     <div className="">
         <div className="safety-container-new">
       <div className="safety-content">
-          <h2>SERIOUS ABOUT SECURITY</h2>
+          <div className="affordable-supporting-display">  
+            <div className="affordable-supporting-h1">
+              <h2>SERIOUS ABOUT SECURITY</h2>
+            </div>            
+                <div className="affordable-supporting"></div>
+          </div>
           <div className="safety-paragraph">
             <p>
             From encryption to fraud detection, your transactions are safe and secure, whether you&apos;re sending money or managing your business.
