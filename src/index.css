@@ -87,6 +87,11 @@ body {
     background: linear-gradient(90deg, #39B54A 0%, #1D493A 100%);
     padding-bottom: 100px;
 }
+
+.flexCenter {
+    @apply flex items-center justify-center;
+  }
+  
 @media screen and (min-width: 469px) {
     
     .globalaccounts-card {
