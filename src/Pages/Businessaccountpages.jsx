@@ -4,6 +4,7 @@ import connectdata, { africancountry, business, getgrowing, safetyTow } from "..
 import SlaverHear from "../images/LayerHear1.png"
 import SliderCarousel from "./Slidercarousel";
 import Extensioncomponents from "./Extensioncomponents";
+import Questioncomon from "./Questioncomon";
 
 export default function Businessaccountpages() {
 
@@ -259,6 +260,9 @@ export default function Businessaccountpages() {
                  <SliderCarousel />
                </div>
              </div>
+             {/* Footer */}
+
+             <Questioncomon/>
     </div>
   )
 }
