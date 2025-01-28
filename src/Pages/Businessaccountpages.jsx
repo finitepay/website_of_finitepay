@@ -8,6 +8,7 @@ import Questioncomon from "./Questioncomon";
 import mainImg from "../Photo/Vector(1).svg"
 import ImGgood from "../Photo/Vectorminers.svg"
 import NoireImg from '../Photo/VectorNoires.svg'
+import Footer from "./Footer";
 
 export default function Businessaccountpages() {
 
@@ -294,6 +295,7 @@ export default function Businessaccountpages() {
              {/* Footer */}
 
              <Questioncomon/>
+             <Footer />
     </div>
   )
 }
