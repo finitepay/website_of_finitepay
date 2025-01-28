@@ -897,7 +897,14 @@ body {
         background: #2CBE18;
         color: white;
         padding: 10px;
+        padding-top: 50px;
+        padding-bottom: 100px;
         border-radius: 10px;
+        width: 350px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
 
     .business-growth-partner-content-details {
@@ -929,11 +936,7 @@ body {
     }
 
     .business-growth-partner-content-image img {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-radius: 20px;
-        padding: 20px;
+        width: 100px;
     }
 
     .business-growth-partner-content {
