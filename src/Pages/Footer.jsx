@@ -5,7 +5,7 @@ import { FOOTER_LINKS, FOOTER_CONTACT_INFO, SOCIALS } from "../Data/index.js";
 
 const Footer = () => {
   return (
-  <div className="bg-headertext text-white">
+  <div className="bg-headertext text-white rounded-tl-2xl rounded-tr-2xl">
     {/* header hero section.. */}
     <div className="w-full max-containing pb-5 pt-10 flex flex-wrap justify-between items-center">
             <div className="">

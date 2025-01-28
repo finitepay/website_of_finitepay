@@ -345,7 +345,6 @@ body {
         display: flex;
         justify-content: center;
         flex-direction: row-reverse;
-        flex-wrap: wrap;
         max-width: 1200px;
         margin: 0 auto;
         gap: 100px;
@@ -999,8 +998,14 @@ body {
     }
 
     .section-money-pay{
-        padding: 20px;
-        padding-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+        flex-wrap: wrap;
+        max-width: 1200px;
+        margin: 0 auto;
     }
 
     .sending-money-content-image img {
@@ -1848,6 +1853,10 @@ body {
 
     .extensioncomponentsBody{
         display: none ;
+    }
+
+    .herosBodysecond{
+        background: linear-gradient(90deg, #39B54A 0%, #1D493A 100%);
     }
 
 
