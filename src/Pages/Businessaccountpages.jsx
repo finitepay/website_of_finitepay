@@ -63,7 +63,7 @@ export default function Businessaccountpages() {
                     </div>
                   </div>
                 ))
-            }
+            }  
             </div>
 
             <div className="flex flex-col gap-5 justify-center pb-5 ">
