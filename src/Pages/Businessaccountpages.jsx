@@ -35,9 +35,11 @@ export default function Businessaccountpages() {
 
           {/* Call to action button */}
           <div className="button-for-action flex flex-wrap justify-center lg:justify-end items-center gap-5">
+            <Link to="/">
             <button className="button border border-secondaryColor p-2 w-[200px] text-sm font-medium rounded-full text-slate-800">
               Personal Account
             </button>
+            </Link>
             <Link to="/businessaccount">
               <button className="button border border-secondaryColor p-2 w-[200px] text-sm font-medium rounded-full text-slate-800">
                 Business Account

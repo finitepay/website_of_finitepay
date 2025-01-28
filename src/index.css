@@ -1746,6 +1746,11 @@ body {
         width: 20px;
     }
 
+    .affordable-supporting {
+        width: 58.5px;
+        margin: 0 auto;
+    }
+
     .affordable-container-main {
         display: flex;
         justify-content: center;
