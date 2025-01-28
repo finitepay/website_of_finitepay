@@ -63,7 +63,7 @@ export default function Globalaccounts() {
          </div>
           <div className="safety-paragraph">
             <p>
-            From encryption to fraud detection, your transactions are safe and secure, whether you&apos;re sending money or managing your business.
+            From encryption to fraud detection, your transactions are safe and secure, whether you&apos;re <br /> sending money or managing your business.
             </p>
           </div>
         </div>

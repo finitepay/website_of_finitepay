@@ -301,8 +301,11 @@ body {
         padding: 50px;
         display: flex;
         flex-direction: row-reverse;
-        width: 1200px;
+        justify-content: center;
+        max-width: 1200px !important;
         margin: 0 auto;
+        width: 100%;
+        border-radius: 20px;
     }
 
     .sending-money-paragraph {
@@ -342,6 +345,7 @@ body {
         display: flex;
         justify-content: center;
         flex-direction: row-reverse;
+        flex-wrap: wrap;
         max-width: 1200px;
         margin: 0 auto;
         gap: 100px;
@@ -986,11 +990,34 @@ body {
     padding: 10px;
 }
 
+@media screen and (max-width: 768px) {
+    .sending-money-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;/* Stack content vertically */ /* Adjust padding */
+    }
+
+    .section-money-pay{
+        padding: 20px;
+        padding-top: 20px;
+    }
+
+    .sending-money-content-image img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -140px; /* Remove negative margin for better spacing */
+        width: 100%; /* Ensure the image scales properly */
+    }
+}
+
+
 @media screen and (max-width: 468px) {
     .herosBody {
         width: 98%;
         margin: 0 auto;
-        background: rgb(109, 110, 109);
+        background: linear-gradient(90deg, #D4F3E1 0%, #FFFCF5 100%);
     }
 
     .logo-hero-responsive {

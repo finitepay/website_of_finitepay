@@ -18,7 +18,7 @@ const Footer = () => {
                 <p>Sign up for our weekly news letter</p>
               </div>
 
-              <div className="flex gap-5 justify-center items-center">
+              <div className="flex gap-5 justify-center items-center flex-wrap">
                 <div className="">
                   <input type="text" placeholder="Enter your email address"  className="p-3 border-none w-[300px] rounded-xl text-xs"/>
                 </div>
