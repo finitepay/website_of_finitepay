@@ -1,4 +1,6 @@
 import { getgrowing } from "../Data/herosdata";
+import ImGgood from "../Photo/Vectorminers.svg"
+
 
 export default function Extensioncomponents() {
   return (
@@ -43,7 +45,7 @@ export default function Extensioncomponents() {
 
             {/* the second card image */}
             <div className="growth-img-container-image">
-                <img src="https://images.pexels.com/photos/30149856/pexels-photo-30149856/free-photo-of-cozy-workspace-with-coffee-and-laptop-setup.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Sending Money Image" />
+                <img src={ImGgood} alt="Sending Money Image" />
         </div>
         </div>
       </div>

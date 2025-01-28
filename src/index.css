@@ -706,7 +706,7 @@ body {
 
 
     .herosing-card-image img{
-        border-radius: 10px;
+       border: 20px;
     }
 
     .willdisplay{
@@ -854,9 +854,7 @@ body {
     }
 
     .affordable-supporting {
-        background: #2CBE18;
         width: 158.5px;
-        height: 50px;
     }
 
     .safety-container-new {

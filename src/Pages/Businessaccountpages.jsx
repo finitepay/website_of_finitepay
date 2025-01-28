@@ -6,16 +6,18 @@ import SliderCarousel from "./Slidercarousel";
 import Extensioncomponents from "./Extensioncomponents";
 import Questioncomon from "./Questioncomon";
 import mainImg from "../Photo/Vector(1).svg"
+import ImGgood from "../Photo/Vectorminers.svg"
+import NoireImg from '../Photo/VectorNoires.svg'
 
 export default function Businessaccountpages() {
 
-    if(africancountry.length === 8){
-        africancountry.push({
-                id: 9,
-                name : "Tanzania",
-                flag : "https://images.pexels.com/photos/915915/pexels-photo-915915.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        })
-    } 
+  if (africancountry.length === 8) {
+    africancountry.push({
+        id: 9,
+        name: "Djibouti",
+        flag: "https://upload.wikimedia.org/wikipedia/commons/3/34/Flag_of_Djibouti.svg",
+    });
+}
 
   return (
     <div className="">
@@ -87,7 +89,7 @@ export default function Businessaccountpages() {
         {/* Second container design */}
         <div className="second-container">
             <div className="second-container-image ">
-                <img  className="w-[440px]"  src={mainImg} alt="Group_81" />
+                <img  className="w-[440px]"  src={mainImg} alt="Gro1" />
             </div>
         </div>
       </div>
@@ -157,7 +159,7 @@ export default function Businessaccountpages() {
         </div>
         <div className="growth-img-container">
         <div className="growth-img-container-image">
-                <img src="https://images.pexels.com/photos/30149856/pexels-photo-30149856/free-photo-of-cozy-workspace-with-coffee-and-laptop-setup.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Sending Money Image" />
+                <img className="" src={ImGgood} alt="Sending Money Image" />
         </div>
         </div>
         </div>
@@ -186,7 +188,9 @@ export default function Businessaccountpages() {
             <div className="affordable-supporting-h1">
               <h2>SERIOUS ABOUT SECURITY</h2>
             </div>            
-                <div className="affordable-supporting"></div>
+                <div className="affordable-supporting">
+                    <img src={NoireImg} alt="" />
+                </div>
           </div>
           <div className="safety-paragraph">
             <p>

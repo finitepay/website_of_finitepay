@@ -26,6 +26,13 @@ import Business01 from '../images/Layering1.png'
 import Business02 from '../images/Layering2.png'
 import Business03 from '../images/Layering3.png'
 
+import star01 from '../Photo/sp1.svg'
+import star02 from '../Photo/Sp2.svg'
+import star03 from '../Photo/Sp3.svg'
+import star04 from '../Photo/Sp4.svg'
+import star05 from '../Photo/Sp5.svg'
+import star06 from '../Photo/Sp6.svg'
+
 const connectdata = [
     {
         id: 1,
@@ -283,87 +290,93 @@ const commonquestion =[
         Icons :Plus
     }
 ]
-
 const africancountry = [
     {
         id: 1,
-        name : "Tanzania",
-        flag : "https://images.pexels.com/photos/915915/pexels-photo-915915.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        name: "Tanzania",
+        flag: "https://upload.wikimedia.org/wikipedia/commons/3/38/Flag_of_Tanzania.svg?width=256&height=128",
     },
     {
         id: 2,
-        name : "Kenya",
-        flag : "https://images.pexels.com/photos/915915/pexels-photo-915915.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        name: "Kenya",
+        flag: "https://upload.wikimedia.org/wikipedia/commons/4/49/Flag_of_Kenya.svg?width=256&height=128",
     },
     {
         id: 3,
-        name : "Nigeria",
-        flag : "https://images.pexels.com/photos/915915/pexels-photo-915915.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        name: "Uganda",
+        flag: "https://upload.wikimedia.org/wikipedia/commons/4/4e/Flag_of_Uganda.svg?width=256&height=128",
     },
     {
         id: 4,
-        name : "South Africa",
-        flag : "https://images.pexels.com/photos/915915/pexels-photo-915915.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        name: "Rwanda",
+        flag: "https://upload.wikimedia.org/wikipedia/commons/1/17/Flag_of_Rwanda.svg?width=256&height=128",
     },
     {
         id: 5,
-        name : "Ghana",
-        flag : "https://images.pexels.com/photos/915915/pexels-photo-915915.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        name: "Zambia",
+        flag: "https://upload.wikimedia.org/wikipedia/commons/0/06/Flag_of_Zambia.svg?width=256&height=128",
     },
     {
         id: 6,
-        name : "Uganda",
-        flag : "https://images.pexels.com/photos/915915/pexels-photo-915915.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        name: "Eritrea",
+        flag: "https://upload.wikimedia.org/wikipedia/commons/2/29/Flag_of_Eritrea.svg?width=256&height=128",
     },
     {
         id: 7,
-        name : "Tanzania",
-        flag : "https://images.pexels.com/photos/915915/pexels-photo-915915.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        name: "Malawi",
+        flag: "https://upload.wikimedia.org/wikipedia/commons/d/d1/Flag_of_Malawi.svg?width=256&height=128",
     },
     {
         id: 8,
-        name : "Tanzania",
-        flag : "https://images.pexels.com/photos/915915/pexels-photo-915915.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        name: "South Sudan",
+        flag: "https://upload.wikimedia.org/wikipedia/commons/7/7a/Flag_of_South_Sudan.svg?width=256&height=128",
     },
+];
 
-]
+
+
+// Add a consistent size to each flag using CSS or query parameters.
+// africancountry.forEach(country => {
+//     country.flag += "?width=256&height=128"; // Example: append query params for size (if supported).
+// });
+
 
 const business =[
     {
         id: 1,
         title : "Multi-Currency Business Wallet",
         Text: "Create your account, verify your identity, and add funds through bank transfer, mobile money, or card.",
-        Img : "https://images.pexels.com/photos/915915/pexels-photo-915915.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        Img : star01
     },
     {
         id: 2,
         title : "Payment Integration for Businesses",
         Text: "APIs and plugins to integrate FinitePay as a payment gateway on e-commerce platforms or websites Instant notifications and reconciliation for incoming payments",
-        Img : "https://images.pexels.com/photos/915915/pexels-photo-915915.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        Img : star05
     },
     {
         id: 3,
         title : "Global and Local Payments",
         Text: "Seamless cross-border payments to suppliers, employees, or partners worldwide with low fees.",
-        Img : "https://images.pexels.com/photos/915915/pexels-photo-915915.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        Img : star04
     },
     {
         id: 4,
         title : "Vendor and Supplier Payments",
         Text: "Bulk payments to multiple recipients in one transaction Automated and scheduled payments to avoid missed deadlines.",
-        Img : "https://images.pexels.com/photos/915915/pexels-photo-915915.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        Img : star06
     },
     {
         id: 5,
         title : " Enhanced Security for Businesses",
         Text: "Multi-user account access with role-based permissions for teams. Advanced fraud detection and security measures tailored for businesses.",
-        Img : "https://images.pexels.com/photos/915915/pexels-photo-915915.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        Img : star03
     },
     {
         id: 6,
         title : "Customer Support for Businesses",
         Text: "Dedicated account managers for high-value accounts 24/7 priority support for quick resolutions to any issues.",
-        Img : "https://images.pexels.com/photos/915915/pexels-photo-915915.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        Img : star02
     }
 
 ]
